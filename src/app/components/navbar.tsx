@@ -23,7 +23,7 @@ export default function Navbar() {
             <Link className='hover:text-gray-500' href="https://github.com/jromulo745" target="_blank">GitHub</Link>
             </li>
           </ul>
-          <button style={{marginLeft: 'auto'}} className='bg-[#87acec] text-white px-5 py-2 rounded-full hover:bg-[#858583]'>Resume</button>
+          <Link href="/joshua_romulo_resume.pdf" locale={false} target='_blank' style={{marginLeft: 'auto'}} className='bg-[#87acec] text-white px-5 py-2 rounded-full hover:bg-[#858583]'>R&#233;sum&#233;</Link>
         </div>
         {/* ------------------------------ */}
         <div className="area" >
