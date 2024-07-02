@@ -129,7 +129,7 @@ export default function MultipleChoice() {
     <div className="flex justify-center">
       <div className="flex flex-col items-center backdrop-blur-md shadow-lg border rounded-3xl p-10" style={{minWidth: '768px', maxWidth: '768px', marginTop: '80px'}}>
         <h1 className="text-3xl mb-5">Multiple Choice</h1>
-        <button id="myButton" className="border border-black rounded-2xl p-2.5" onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
+        <button id="myButton" className="border rounded-2xl p-2.5" onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
         {beginTruthy ? (
           <div className="flex flex-col items-center justify-center">
             <p className="mt-5 mb-5">{`(${counter + 1} of ${listLength})`}</p>

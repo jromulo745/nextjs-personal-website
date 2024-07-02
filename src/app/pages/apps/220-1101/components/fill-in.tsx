@@ -78,14 +78,14 @@ export default function FillIn() {
     <div className="flex justify-center">
       <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl p-10" style={{minWidth: '768px', maxWidth: '768px', marginTop: '80px', marginBottom: '80px'}}>
         <h1 style={{paddingLeft: '71px', paddingRight: '71px'}}  className="text-3xl mb-5">Fill-in</h1>
-        <button className="border border-black rounded-2xl p-2.5" onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
+        <button className="border rounded-2xl p-2.5" onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
         {beginTruthy ? (
           <div className="flex flex-col items-center justify-center">
             <p className="mt-5 mb-5">{`(${counter + 1} of ${listLength})`}</p>
             <p>{questions[counter]}</p>
             <form>
-              <input className="border border-black rounded mr-1.5 mt-5 mb-5" type="text" name="answer" id="answer"></input>
-              <button className="border border-black rounded pl-2 pr-2" onClick={checkAnswer} disabled={submitButtonDisabled}>Submit</button>
+              <input className="border rounded mr-1.5 mt-5 mb-5" type="text" name="answer" id="answer"></input>
+              <button className="border rounded pl-2 pr-2" onClick={checkAnswer} disabled={submitButtonDisabled}>Submit</button>
             </form>
         </div>
         ) : null}
