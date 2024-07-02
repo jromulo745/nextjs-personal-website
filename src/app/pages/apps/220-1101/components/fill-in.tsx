@@ -76,7 +76,7 @@ export default function FillIn() {
 
   return (
     <div className="flex justify-center">
-      <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl p-10" style={{minWidth: '768px', maxWidth: '768px', marginTop: '80px'}}>
+      <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl p-10" style={{minWidth: '768px', maxWidth: '768px', marginTop: '80px', marginBottom: '80px'}}>
         <h1 style={{paddingLeft: '71px', paddingRight: '71px'}}  className="text-3xl mb-5">Fill-in</h1>
         <button className="border border-black rounded-2xl p-2.5" onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
         {beginTruthy ? (
