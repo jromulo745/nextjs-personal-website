@@ -50,7 +50,7 @@ export default function MultipleChoice() {
   }, []);
 
   function startExam() {
-    if (examStarted === true) {
+    if (examStarted) {
       updateCounter(counter + 1);
       setChoiceDisabled(false); // enable the buttons for the choices after assessing
       setNextButtonDisabled(true);
@@ -126,13 +126,13 @@ export default function MultipleChoice() {
   }
 
   return (
-    <div className="flex justify-start">
-      <div className="flex flex-col items-center backdrop-blur-md border rounded-3xl mt-20 ml-20 p-10 max-w-3xl">
+    <div className="flex justify-center">
+      <div className="flex flex-col items-center backdrop-blur-md shadow-lg border rounded-3xl p-10" style={{minWidth: '768px', maxWidth: '768px', marginTop: '80px'}}>
         <h1 className="text-3xl mb-5">Multiple Choice</h1>
-        <button id="myButton" className="border rounded-2xl p-2.5" onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
+        <button id="myButton" className="border border-black rounded-2xl p-2.5" onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
         {beginTruthy ? (
-          <div className="flex flex-col items-center">
-            <p className='mt-5 mb-5'>{`(${counter + 1} of ${listLength})`}</p>
+          <div className="flex flex-col items-center justify-center">
+            <p className="mt-5 mb-5">{`(${counter + 1} of ${listLength})`}</p>
             <p>{questions[counter]}</p>
             <button style={{backgroundColor: buttonColor1}} className="border rounded-2xl p-2.5 mt-5" onClick={() => checkAnswer(1)} disabled={choiceDisabled}>{answers[counter][0][0] === '*' ? answers[counter][0].substring(1): answers[counter][0]}</button>
             <button style={{backgroundColor: buttonColor2}} className="border rounded-2xl p-2.5 mt-5" onClick={() => checkAnswer(2)} disabled={choiceDisabled}>{answers[counter][1][0] === '*' ? answers[counter][1].substring(1): answers[counter][1]}</button>
