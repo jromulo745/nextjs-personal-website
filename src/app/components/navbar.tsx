@@ -26,7 +26,6 @@ export default function Navbar() {
               <Link href="/Joshua Jefson Romulo.pdf" locale={false} target='_blank' className='bg-[#87acec] text-white px-5 py-2 rounded-full hover:bg-[#858583]'>R&#233;sum&#233;</Link>
             </li>
           </ul>
-          
         </div>
         {/* ------------------------------ */}
         <div className="area" >

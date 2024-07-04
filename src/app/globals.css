@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html{
   height: 100%;
   background: linear-gradient(#a6c1ee, #0000) no-repeat;
   overflow-y: scroll;
