@@ -1,9 +1,11 @@
 'use client';
 
 import Link from 'next/link';
+import styles from './styles.module.css';
 
 export default function Navbar() {
   return (
+    <div>
       <div className='bg-transparent pb-6 pt-6 shadow-lg text-white'>
         <div className='flex justify-center items-center w-[92%] mx-auto'>
           <ul className='flex gap-8'>
@@ -27,7 +29,6 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        {/* ------------------------------ */}
         <div className="area" >
           <ul className="circles">
             <li></li>
@@ -42,7 +43,11 @@ export default function Navbar() {
             <li></li>
           </ul>
         </div >
-        {/* ------------------------------ */}
       </div>
+      {/* --------------------------------- */}
+      <div>
+        <h1 className={styles.curly} style={{marginTop: '30px', fontSize: '75px', textAlign: 'center'}}>Joshua Jefson Romulo</h1>
+      </div>
+    </div>
   );
 }
