@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from "react";
 
-export default function MultipleChoice() {
+export default function MultipleChoice({file_path}: {file_path: string}) {
 
   //------------------------------------------------------------------
   // variables //
@@ -31,7 +31,7 @@ export default function MultipleChoice() {
 
   async function fetchQuestions() {
     // load questions data //
-    const res = await fetch('../../multiple-choice.json');
+    const res = await fetch(file_path);
     const resJSON = await res.json();
 
     for (let i in resJSON) {
