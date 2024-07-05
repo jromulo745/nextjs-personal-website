@@ -1,4 +1,5 @@
 import Navbar from "../../components/navbar";
+import styles from './styles.module.css';
 
 export default function HomePage() {
   return (
@@ -12,12 +13,29 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="flex justify-center">
-        <div className="backdrop-blur-md border shadow-lg rounded-3xl ml-10 mr-10 mb-20 mt-10 p-10 max-w-3xl">
-          <h1 style={{textAlign: 'center', fontSize: '30px'}}>Work Photo</h1>
-          <img src="/photo.png" width="127" height="169" style={{borderRadius: '10px', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
+      {/* ------------------------------------------------------------------- */}
+      <div className={styles.boxes}>  
+        <div className={styles.container}>
+          <div className={styles.box}>
+            <h2>About Me</h2>
+            <img src='/images/photo.png' width="127" height="169" style={{borderRadius: '10px'}}  />
+            <p>Please click this box to view more information about me</p>
+          </div>
+  
+          <a className={styles.box} href="https://github.com/jromulo745" target="_blank">
+            <h2>GitHub</h2>
+            <img width="159" height="162" style={{marginBottom: '26px'}} />
+            <p>Check out my GitHub!</p>
+          </a>
+  
+          <a className={styles.box} href="https://www.linkedin.com/in/joshua-jefson-romulo-5358581b5" target="_blank">
+            <h2>LinkedIn</h2>
+            <img width="201" height="170" />
+            <p>Connect with me on LinkedIn!</p>
+          </a>
         </div>
       </div>
+      {/* ------------------------------------------------------------------- */}
 
     </div>
   );
