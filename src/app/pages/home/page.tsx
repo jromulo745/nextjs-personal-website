@@ -14,25 +14,27 @@ export default function HomePage() {
       </div>
 
       {/* ------------------------------------------------------------------- */}
-      <div className={styles.boxes}>  
-        <div className={styles.container}>
-          <div className={styles.box}>
-            <h2>About Me</h2>
-            <img src='/images/photo.png' width="127" height="169" style={{borderRadius: '10px'}}  />
-            <p>Please click this box to view more information about me</p>
+      <div style={{maxWidth: '768px', margin: '0 auto', padding: '8px 0 0 0'}}>
+        <div className="flex mt-5 mb-5" style={{justifyContent: 'around', gap: '15px'}}>
+          
+          <div className="border shadow-lg rounded-xl pl-10 pr-10 pt-5 pb-5 shrink min-w-0 min-h-0 overflow-hidden flex flex-col" style={{alignItems: 'center'}}>
+            <h2 className="flex justify-center">About Me</h2>
+            <img style={{marginTop: '25px', marginBottom: 'auto'}} src="/images/photo.png" width="127" height="169" className="border rounded-xl mb-2 flex m-auto"></img>
+            <p>Click this box to view more information about me</p>
           </div>
-  
-          <a className={styles.box} href="https://github.com/jromulo745" target="_blank">
-            <h2>GitHub</h2>
-            <img width="159" height="162" style={{marginBottom: '26px'}} />
-            <p>Check out my GitHub!</p>
-          </a>
-  
-          <a className={styles.box} href="https://www.linkedin.com/in/joshua-jefson-romulo-5358581b5" target="_blank">
-            <h2>LinkedIn</h2>
-            <img width="201" height="170" />
-            <p>Connect with me on LinkedIn!</p>
-          </a>
+   
+          <div className=" shadow-lg rounded-xl pl-10 pr-10 pt-5 pb-5 shrink min-w-0 min-h-0 overflow-hidden flex flex-col" style={{alignItems: 'center'}}>
+            <h2 className="flex justify-center">GitHub</h2>
+            <img style={{marginTop: '25px', marginBottom: '25px'}} src="/images/github-mark.png" width="159" height="162" className="mb-2 flex m-auto"></img>
+            <p>Click this box to view more information about me</p>
+          </div>
+          
+          <div className="border shadow-lg rounded-xl pl-10 pr-10 pt-5 pb-5 shrink min-w-0 min-h-0 overflow-hidden flex flex-col" style={{alignItems: 'center'}}>
+            <h2 className="flex justify-center">LinkedIn</h2>
+            <img style={{marginTop: '25x', marginBottom: 'auto'}} src="/images/LI-In-Bug.png" width="201" height="170" className="mb-2 flex m-auto"></img>
+            <p>Click this box to view more information about me</p>
+          </div>
+    
         </div>
       </div>
       {/* ------------------------------------------------------------------- */}
