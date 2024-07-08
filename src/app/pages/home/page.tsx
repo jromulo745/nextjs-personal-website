@@ -19,7 +19,7 @@ export default function HomePage() {
           
           <div className="backdrop-blur-md border shadow-lg rounded-xl pl-10 pr-10 pt-5 pb-5 shrink min-w-0 min-h-0 overflow-hidden flex flex-col" style={{alignItems: 'center', flex: '1'}}>
             <h2 className="flex justify-center">About Me</h2>
-            <img style={{marginTop: '25px', marginBottom: 'auto'}} src="/images/photo.png" width="127" height="169" className="mb-2 flex m-auto"></img>
+            <img style={{marginTop: '25px', marginBottom: 'auto'}} src="/images/photo.png" width="127" height="169" className="mb-2 flex m-auto border rounded-xl"></img>
             <p>Click this box to view more information about me</p>
           </div>
    
