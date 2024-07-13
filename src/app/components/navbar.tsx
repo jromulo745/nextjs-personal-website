@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <div>
       <div className='bg-transparent pb-6 pt-6 shadow-lg text-white'>
-        <div className='flex justify-center items-center w-[92%] mx-auto'>
-          <ul className='flex gap-8'>
+        <div className='flex justify-center'>
+          <ul className='navbar flex gap-8'>
             <li>
               <Link className='hover:text-gray-500' href="/pages/home"><span style={{color: 'lightgrey'}}>01.</span> Home</Link>
             </li>
