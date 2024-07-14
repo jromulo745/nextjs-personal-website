@@ -50,7 +50,10 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
   }, []);
 
   function startExam() {
-    if (examStarted) {
+    if (examStarted) { // 'Next' button
+
+
+
       updateCounter(counter + 1);
       setChoiceDisabled(false); // enable the buttons for the choices after assessing
       setNextButtonDisabled(true);
@@ -66,7 +69,7 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
       (document.getElementById("button4") as HTMLInputElement).style.color = '#6E717A'; // reset text color
       (document.getElementById("button5") as HTMLInputElement).style.color = '#6E717A'; // reset text color
     }
-    else {
+    else { // 'Start' Button
       setBeginTruthy(true);
       setButtonText('Next Question');
       setNextButtonDisabled(true);
@@ -137,17 +140,17 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
   return (
     <div className="flex justify-center">
       <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10" style={{flex: 1, maxWidth: '768px'}}>
-        <h1 className="text-3xl mb-5">Multiple Choice</h1>
-        <button id="myButton" className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'rgb(255, 255, 255)'}} onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
+        <h1 className="text-3xl mb-5" style={{color: 'grey'}}>Multiple Choice</h1>
+        <button id="myButton" className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey'}} onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
         {beginTruthy ? (
           <div className="flex flex-col items-center justify-center">
             <p className="mt-5 mb-5">{`(${counter + 1} of ${listLength})`}</p>
             <p>{questions[counter]}</p>
-            <button id="button1" style={{backgroundColor: buttonColor1, borderColor: 'rgb(255, 255, 255)'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(1)} disabled={choiceDisabled}>{answers[counter][0][0] === '*' ? answers[counter][0].substring(1): answers[counter][0]}</button>
-            <button id="button2" style={{backgroundColor: buttonColor2, borderColor: 'rgb(255, 255, 255)'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(2)} disabled={choiceDisabled}>{answers[counter][1][0] === '*' ? answers[counter][1].substring(1): answers[counter][1]}</button>
-            <button id="button3" style={{backgroundColor: buttonColor3, borderColor: 'rgb(255, 255, 255)'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(3)} disabled={choiceDisabled}>{answers[counter][2][0] === '*' ? answers[counter][2].substring(1): answers[counter][2]}</button>
-            <button id="button4" style={{backgroundColor: buttonColor4, borderColor: 'rgb(255, 255, 255)'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(4)} disabled={choiceDisabled}>{answers[counter][3][0] === '*' ? answers[counter][3].substring(1): answers[counter][3]}</button>
-            <button id="button5" style={{backgroundColor: buttonColor5, borderColor: 'rgb(255, 255, 255)'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(5)} disabled={choiceDisabled}>{answers[counter][4][0] === '*' ? answers[counter][4].substring(1): answers[counter][4]}</button>
+            <button id="button1" style={{backgroundColor: buttonColor1, borderColor: 'grey'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(1)} disabled={choiceDisabled}>{answers[counter][0][0] === '*' ? answers[counter][0].substring(1): answers[counter][0]}</button>
+            <button id="button2" style={{backgroundColor: buttonColor2, borderColor: 'grey'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(2)} disabled={choiceDisabled}>{answers[counter][1][0] === '*' ? answers[counter][1].substring(1): answers[counter][1]}</button>
+            <button id="button3" style={{backgroundColor: buttonColor3, borderColor: 'grey'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(3)} disabled={choiceDisabled}>{answers[counter][2][0] === '*' ? answers[counter][2].substring(1): answers[counter][2]}</button>
+            <button id="button4" style={{backgroundColor: buttonColor4, borderColor: 'grey'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(4)} disabled={choiceDisabled}>{answers[counter][3][0] === '*' ? answers[counter][3].substring(1): answers[counter][3]}</button>
+            <button id="button5" style={{backgroundColor: buttonColor5, borderColor: 'grey'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(5)} disabled={choiceDisabled}>{answers[counter][4][0] === '*' ? answers[counter][4].substring(1): answers[counter][4]}</button>
           </div>
         ) : null}
       </div>

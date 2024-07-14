@@ -84,8 +84,8 @@ export default function FillIn({file_path}: {file_path: string}) {
             <p className="mt-5 mb-5">{`(${counter + 1} of ${listLength})`}</p>
             <p>{questions[counter]}</p>
             <form>
-              <input className="border rounded mr-1.5 mt-5 mb-5" type="text" name="answer" id="answer"></input>
-              <button className="border rounded pl-2 pr-2" onClick={checkAnswer} disabled={submitButtonDisabled}>Submit</button>
+              <input className="border rounded mr-1.5 mt-5 mb-5" type="text" name="answer" id="answer" style={{borderColor: 'grey'}}></input>
+              <button className="border rounded pl-2 pr-2" onClick={checkAnswer} disabled={submitButtonDisabled} style={{borderColor: 'grey'}}>Submit</button>
             </form>
         </div>
         ) : null}
