@@ -37,7 +37,6 @@ h2, p, button {
   background: rgba(61, 56, 56, 0.2);
   animation: animate 25s linear infinite;
   bottom: -150px;
-  
 }
 
 .circles li:nth-child(1){
