@@ -41,7 +41,7 @@ export default function HomePage() {
         </div>
       </div>
       {/* ------------------------------------------------------------------- */}
-    <SquareAnimations />
+      <SquareAnimations />
     </div>
   );
 }
