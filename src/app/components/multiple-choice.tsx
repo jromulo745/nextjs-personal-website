@@ -51,9 +51,6 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
 
   function startExam() {
     if (examStarted) { // 'Next' button
-
-
-
       updateCounter(counter + 1);
       setChoiceDisabled(false); // enable the buttons for the choices after assessing
       setNextButtonDisabled(true);
