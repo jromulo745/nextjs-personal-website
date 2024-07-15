@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Navbar from "../../components/navbar";
+import SquareAnimations from '../../components/square-animations';
 
 export default function AppPage() {
   return (
@@ -24,6 +25,7 @@ export default function AppPage() {
         </div>
       </div>
       {/* ----------------------------------------------------------------- */}
+      <SquareAnimations />
     </div>
   );
 }
