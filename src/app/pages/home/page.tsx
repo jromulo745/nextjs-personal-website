@@ -2,7 +2,7 @@
 
 import Navbar from "../../components/navbar";
 import Link from 'next/link';
-import styles from './styles.module.css';
+import SquareAnimations from '../../components/square-animations';
 
 export default function HomePage() {
   return (
@@ -41,7 +41,7 @@ export default function HomePage() {
         </div>
       </div>
       {/* ------------------------------------------------------------------- */}
-
+    <SquareAnimations />
     </div>
   );
 }
