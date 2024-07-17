@@ -134,4 +134,7 @@ h2, p, button {
     flex-direction: column;
     padding-top: 10px;
   }
+  .boxes {
+    display: block;
+  }
 }

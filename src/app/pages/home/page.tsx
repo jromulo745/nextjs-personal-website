@@ -18,9 +18,9 @@ export default function HomePage() {
 
       {/* ------------------------------------------------------------------- */}
       <div className="flex justify-center">
-        <div className="flex ml-20 mr-20 mt-5 mb-5" style={{justifyContent: 'around', gap: '15px', maxWidth: '768px'}}>
+        <div className="flex ml-20 mr-20 mt-5 mb-5 boxes" style={{justifyContent: 'around', gap: '15px', maxWidth: '768px'}}>
           
-          <Link href="/pages/about-me" className="backdrop-blur-md border shadow-lg rounded-xl pl-10 pr-10 pt-5 pb-5 min-w-0 min-h-0 overflow-hidden flex flex-col hover:shadow-2xl" style={{alignItems: 'center', flex: '1'}}>
+          <Link href="/pages/about-me" className="backdrop-blur-md border shadow-lg rounded-xl pl-10 pr-10 pt-5 pb-5 min-w-0 min-h-0 overflow-hidden flex flex-col hover:shadow-2xl box1" style={{alignItems: 'center', flex: '1'}}>
             <h2 className="flex justify-center">About Me</h2>
             <img src="/images/photo.png" width="127" height="169" className="border rounded-xl" style={{marginTop: '10px', marginBottom: '10px'}}></img>
             <p>Click here to view more information about me</p>
