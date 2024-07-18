@@ -91,7 +91,6 @@ export default function FillIn({file_path}: {file_path: string}) {
         </div>
         ) : null}
       </div>
-      <SquareAnimations />
     </div>
   );
 }
