@@ -8,6 +8,10 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
   // variables //
   const jsonQuestions: string[] = [];
   const jsonAnswers: string[] = [];
+  //------------------------------------------------------------------
+  const jsonFinalQuestions: string[] = [];
+  const jsonFinalAnswers: string[] = [];
+  //------------------------------------------------------------------
   const [questions, setQuestions] = useState([] as string[]);
   const [answers, setAnswers] = useState([] as string[]);
   //------------------------------------------------------------------
@@ -29,6 +33,10 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
   const [counter, updateCounter] = useState(0);
   //------------------------------------------------------------------
 
+  function random_number_generator(min: number, max: number): number {
+    return Math.random() * (max - min) + min;
+  }
+
   async function fetchQuestions() {
     // load questions data //
     const res = await fetch(file_path);
@@ -38,11 +46,32 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
       jsonQuestions.push(i);
       jsonAnswers.push(resJSON[i]);
     }
-    setQuestions(jsonQuestions);
-    setAnswers(jsonAnswers);
-    //------------------------------
-    setLength(jsonQuestions.length);
-    //------------------------------
+    //-------------------------------------------------------------------------------
+    const used_random_indices: number[] = [];
+    for (let i = 0; i < jsonQuestions.length; i += 1) {
+      let num: number = Math.floor(random_number_generator(0, jsonQuestions.length));
+      while (true) {
+        num = Math.floor(random_number_generator(0, jsonQuestions.length));
+        if (!(used_random_indices.includes(num))) {
+          used_random_indices.push(num);
+          break;
+        }
+        else {
+          continue;
+        }
+      }
+    }
+    console.log(used_random_indices);
+    for (let i = 0; i < jsonQuestions.length; i += 1) {
+      jsonFinalQuestions.push(jsonQuestions[used_random_indices[i]]);
+      jsonFinalAnswers.push(jsonAnswers[used_random_indices[i]]);
+    }
+    //-------------------------------------------------------------------------------
+    setQuestions(jsonFinalQuestions);
+    setAnswers(jsonFinalAnswers);
+    //-----------------------------------
+    setLength(jsonFinalQuestions.length);
+    //-----------------------------------
   }
 
   useEffect(() => {
