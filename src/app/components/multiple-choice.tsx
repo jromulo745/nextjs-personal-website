@@ -80,20 +80,27 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
 
   function startExam() {
     if (examStarted) { // 'Next' button
-      updateCounter(counter + 1);
-      setChoiceDisabled(false); // enable the buttons for the choices after assessing
-      setNextButtonDisabled(true);
-      //-----------------------------
-      setButtonColor1('transparent'); // reset button color
-      setButtonColor2('transparent'); // reset button color
-      setButtonColor3('transparent'); // reset button color
-      setButtonColor4('transparent'); // reset button color
-      setButtonColor5('transparent'); // reset button color
-      (document.getElementById("button1") as HTMLInputElement).style.color = '#6E717A'; // reset text color
-      (document.getElementById("button2") as HTMLInputElement).style.color = '#6E717A'; // reset text color
-      (document.getElementById("button3") as HTMLInputElement).style.color = '#6E717A'; // reset text color
-      (document.getElementById("button4") as HTMLInputElement).style.color = '#6E717A'; // reset text color
-      (document.getElementById("button5") as HTMLInputElement).style.color = '#6E717A'; // reset text color
+      console.log((counter + 1) + " | "  + listLength);
+      if ((counter + 1) === listLength) {
+        setChoiceDisabled(true);
+        setNextButtonDisabled(true);
+      }
+      else {
+        updateCounter(counter + 1);
+        setChoiceDisabled(false); // enable the buttons for the choices after assessing
+        setNextButtonDisabled(true);
+        //---------------------------------------------------
+        setButtonColor1('transparent'); // reset button color
+        setButtonColor2('transparent'); // reset button color
+        setButtonColor3('transparent'); // reset button color
+        setButtonColor4('transparent'); // reset button color
+        setButtonColor5('transparent'); // reset button color
+        (document.getElementById("button1") as HTMLInputElement).style.color = '#6E717A'; // reset text color
+        (document.getElementById("button2") as HTMLInputElement).style.color = '#6E717A'; // reset text color
+        (document.getElementById("button3") as HTMLInputElement).style.color = '#6E717A'; // reset text color
+        (document.getElementById("button4") as HTMLInputElement).style.color = '#6E717A'; // reset text color
+        (document.getElementById("button5") as HTMLInputElement).style.color = '#6E717A'; // reset text color
+      }
     }
     else { // 'Start' Button
       setBeginTruthy(true);
