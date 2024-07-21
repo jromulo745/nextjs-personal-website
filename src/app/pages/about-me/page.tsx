@@ -5,10 +5,9 @@ export default function AboutMePage() {
     <div>
       <Navbar />
       <div className="flex justify-center" style={{gap: '20px'}}>
-        
-        <div className="backdrop-blur-md border rounded-3xl mb-20 mt-10 p-10 max-w-3xl">
+        <div className="backdrop-blur-md border rounded-3xl mb-20 mt-10 p-10 max-w-3xl work-photo-section">
           <h1 className="text-4xl mb-5" style={{textAlign: 'center'}}>Work Photo</h1>
-          <img src="/images/photo.png" width="283" height="377"></img>
+          <img src="/images/photo.png" style={{alignContent: 'center'}} width="283" height="377"></img>
           
           <div className="flex justify-center mt-10">
             <img src="/images/csueb.eb.rg.png" width="145" height="112"></img>
