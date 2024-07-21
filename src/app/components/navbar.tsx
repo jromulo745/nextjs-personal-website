@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import styles from './styles.module.css';
+import '../../app/globals.css';
 
 export default function Navbar() {
   return (
