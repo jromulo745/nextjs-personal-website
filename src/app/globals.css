@@ -134,7 +134,24 @@ h2, p, button {
     flex-direction: column;
     padding-top: 10px;
   }
+
+  /* ---------------------------------------------- */
+  /* home page */
+  .introduction {
+    margin: 10px;
+  }
   .boxes {
     display: block;
+    margin: 10px 10px;
   }
+  .box1 {
+    margin-bottom: 20px;
+  }
+  .box2 {
+    margin-bottom: 20px;
+  }
+  .box3 {
+    margin-bottom: 20px;
+  }
+  /* ---------------------------------------------- */
 }
