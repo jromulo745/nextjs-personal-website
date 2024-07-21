@@ -19,10 +19,10 @@ export default function AboutMePage() {
         </div>
 
         <div className="backdrop-blur-md border rounded-3xl  mb-20 mt-10 p-10 max-w-xl">
-          <h1 className="text-4xl mb-5" style={{textAlign: 'center'}}>About me</h1>
+          <h1 className="text-3xl mb-5" style={{textAlign: 'center', color: '#9B9EAE'}}>About me</h1>
           <p className="mt-5" style={{color: '#6E717A'}}>I am a computer science graduate from CSUEB with experience with the following technologies: JavaScript, TypeScript, React, NextJS, HTML5, CSS3, Python, Java, and C++. I have also worked for Cal State East Bay's Information Technology department as an analyst aiding with digital accessibility media production and IT asset procurement.</p>
       
-          <h1 className="text-4xl mb-5 mt-7" style={{textAlign: 'center'}}>Work Experience</h1>
+          <h1 className="text-3xl mb-5 mt-7" style={{textAlign: 'center', color: '#9B9EAE'}}>Work Experience</h1>
           
           <h2 style={{textAlign: 'center', marginTop: '30px', fontStyle: 'italic'}}>California State University, East Bay</h2>
           <ul style={{textAlign: 'left', margin: '10px 50px'}}>
