@@ -32,7 +32,7 @@ export default function Navbar() {
       </div>
       {/* --------------------------------- */}
       <div>
-        <h1 className={styles.curly} style={{marginTop: '30px', fontSize: '75px', textAlign: 'center'}}>Joshua Jefson Romulo</h1>
+        <h1 className={`${styles.curly} ${'header-name'}`} style={{marginTop: '30px', textAlign: 'center'}}>Joshua Jefson Romulo</h1>
       </div>
     </div>
   );
