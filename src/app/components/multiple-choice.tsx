@@ -172,7 +172,7 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
 
   return (
     <div className="flex justify-center">
-      <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10" style={{flex: 1, maxWidth: '768px'}}>
+      <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10 multiple-choice" style={{flex: 1, maxWidth: '768px'}}>
         <h1 className="text-3xl mb-5" style={{color: 'grey'}}>Multiple Choice</h1>
         <button id="myButton" className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey'}} onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
         {beginTruthy ? (
