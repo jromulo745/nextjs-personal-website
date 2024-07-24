@@ -42,7 +42,7 @@ export default function AboutMePage() {
                   established SLA’s.</li>
               <li>Document technical issues and take ownership of escalating issues to the appropriate resource.</li>
               <li>Ensure security and privacy of networks and computer systems.</li>
-              <li>Azure administration of user accounts throughout the company</li>            
+              <li>Azure administration of user accounts throughout the company.</li>            
             </ul>
           </ul>
 
