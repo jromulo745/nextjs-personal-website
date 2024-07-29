@@ -1,19 +1,22 @@
 'use client';
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 
-export default function MultipleChoice({file_path}: {file_path: string}) {
+export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1: string, file_path_2: string}) {
 
   //------------------------------------------------------------------
   // variables //
   const jsonQuestions: string[] = [];
   const jsonAnswers: string[] = [];
+  const jsonExplanations: string[] = [];
   //------------------------------------------------------------------
   const jsonFinalQuestions: string[] = [];
   const jsonFinalAnswers: string[] = [];
+  const jsonFinalExplanations: string[] = [];
   //------------------------------------------------------------------
   const [questions, setQuestions] = useState([] as string[]);
   const [answers, setAnswers] = useState([] as string[]);
+  const [explanations, setExplanations] = useState([] as string[]);
   //------------------------------------------------------------------
   const [listLength, setLength] = useState(0);
   const [choiceDisabled, setChoiceDisabled] = useState(false);
@@ -39,7 +42,7 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
 
   async function fetchQuestions() {
     // load questions data //
-    const res = await fetch(file_path);
+    const res = await fetch(file_path_1);
     const resJSON = await res.json();
 
     for (let i in resJSON) {
@@ -61,10 +64,21 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
         }
       }
     }
+
     console.log(used_random_indices);
+
+    // load explanations data //
+    const response = await fetch(file_path_2);
+    const responseJSON = await response.json();
+
+    for (let i in responseJSON) {
+      jsonExplanations.push(responseJSON[i]);
+    }
+
     for (let i = 0; i < jsonQuestions.length; i += 1) {
       jsonFinalQuestions.push(jsonQuestions[used_random_indices[i]]);
       jsonFinalAnswers.push(jsonAnswers[used_random_indices[i]]);
+      jsonFinalExplanations.push(jsonExplanations[used_random_indices[i]]);
     }
     //-------------------------------------------------------------------------------
     setQuestions(jsonFinalQuestions);
@@ -72,6 +86,7 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
     //-----------------------------------
     setLength(jsonFinalQuestions.length);
     //-----------------------------------
+    setExplanations(jsonFinalExplanations);
   }
 
   useEffect(() => {
@@ -108,6 +123,13 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
       setNextButtonDisabled(true);
     }
   }
+
+  // -------------------------------------------------
+  function showExplanation() {
+    alert(explanations[counter]);
+    console.log('dude:' + explanations);
+  }
+  // -------------------------------------------------
 
   function checkAnswer(selectedChoice: number): void {
     setChoiceDisabled(true); // disable the buttons for the choices while assessing
@@ -167,14 +189,22 @@ export default function MultipleChoice({file_path}: {file_path: string}) {
       default:
         break;
     }
-    console.log('here: ' + correctIndex);
+    // console.log('here: ' + correctIndex);
   }
 
   return (
     <div className="flex justify-center">
       <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10 multiple-choice" style={{flex: 1, maxWidth: '768px'}}>
         <h1 className="text-3xl mb-5" style={{color: 'grey'}}>Multiple Choice</h1>
-        <button id="myButton" className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey'}} onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
+        
+        {/* explanations button; will show only when the exam starts */}
+        <div>
+          <button className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey'}} onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
+          {beginTruthy ? (
+            <button className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey', marginLeft: '10px'}} onClick={showExplanation} disabled={nextButtonDisabled}>Explanation</button>) : null
+          } 
+        </div>
+        
         {beginTruthy ? (
           <div className="flex flex-col items-center justify-center">
             <p className="mt-5 mb-5">{`(${counter + 1} of ${listLength})`}</p>
