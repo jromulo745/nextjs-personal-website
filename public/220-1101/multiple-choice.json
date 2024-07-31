@@ -143,4 +143,4 @@
   "A computer is experiencing a problem in which the network connection alternates between a working state and non-working state. It affects all applications. What is most likely occurring in this scenario?": ["Jitter","Network congestion","*Port flapping","High latency","None of the listed"],
   "A user is experiencing slow network transfer speeds. You suspect that the user’s system has too many open network connections to the Internet. Which of the following commands should you run to see which connections the user’s system has to the Internet?": ["*netstat -a","tracert","ipconfig /release","ipconfig /renew","Any of the above"],
   "What is the first thing you should check for when experiencing low RF and intermittent wireless connectivity issues?": ["APIPA address","Configure QoS","*The distance of the computer from the WAP","Outdated equipment and cables","None of the listed"]
-  }
+}
