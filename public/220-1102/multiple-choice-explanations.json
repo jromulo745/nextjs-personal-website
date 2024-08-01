@@ -1,12 +1,15 @@
 {
-  "0": "This feature is coming soon",
-  "1": "This feature is coming soon",
-  "2": "This feature is coming soon",
-  "3": "This feature is coming soon",
-  "4": "This feature is coming soon",
-  "5": "This feature is coming soon",
-  "6": "This feature is coming soon",
-  "7": "This feature is coming soon",
-  "8": "This feature is coming soon",
-  "9": "This feature is coming soon"
+  "0": "Go to the notification area to find out what applications are running in the background. (Another way is to use the Task Manager.) In Windows 10, click the arrow that points up to show hidden icons. In other versions of Windows, the applications might actually appear in the notification area itself.",
+  "1": "robocopy can copy an entire drive of information with just one command (including switches). xcopy could also do the job, but robocopy takes its place.",
+  "2": "sfc determines whether system files have been overwritten and replaces those files with the original versions. chkdsk can check for errors and fix some errors, but it cannot work with system files. md is the command used to make a directory. xcopy is used to copy large amounts of data to a new location.",
+  "3": "diskpart is the command-line counterpart of Disk Management. From the DISKPART> prompt, you can create, delete, and extend volumes; assign drive letters; make a partition active; and so on. The format command is used to format storage media to a particular file system, such as NTFS, FAT, or FAT32. defrag is the command-line version of the Disk Defragmenter; these tools help make the files on a drive contiguous instead of fragmented.",
+  "4": "You should use gpupdate to bring the Windows policies up to date without requiring the admin to log off and on again. The shutdown command is used to turn off or restart a computer. rd is used to remove directories. The Local Security Policy is where you can go to modify many policy settings (such as the password policy), but it is a graphical tool. To enforce the changes made in the Local Security Policy, use the gpupdate command. winver is used to find out what operating system version you are running.",
+  "5": "tracert is used to run a trace between the local system and a remote destination. It shows all routers along the way. ping is used to test connectivity to another system directly. ipconfig displays the Internet Protocol configuration of the local computer. nbtstat shows the name table cache and services running on the system.",
+  "6": "You should use the command net use J: \\\\Jupiter-Server\\Data1. All the other answers are incorrect. The Universal Naming Convention (UNC) is \\\\computername\\sharename.",
+  "7": "Of the listed answers, the best one is the ping command. It will help you to decipher what the problem is. However, consider using ipconfig /all before running ping. The netstat command shows a list of current connections (among other things). Chances are that there are none currently in the scenario. The net use command displays and makes connections to remote shares. The nslookup command does name resolution between domain names and IP addresses.",
+  "8": "Implement the net use command so that you can make the connection to the network share. (Of course, you could also do this in File Explorer, but this chapter is about the command line!) Use nslookup to resolve domain names to IP addresses or to modify DNS servers. Use ipconfig to analyze the system. Use ping to test whether another system is “alive” on the network.",
+  "9": "The Windows Task Manager performance tab displays the up time of the operating system.",
+  "10": "An anti-virus message identifying malware and then asking for money is commonly fake and is not a legitimate notification.",
+  "11": "Once malware symptoms are verified on a system, the next step is to completely isolate the system from the network and other devices.",
+  "12": "An operating system requires enough storage space to download and install the updated OS files."
 }
