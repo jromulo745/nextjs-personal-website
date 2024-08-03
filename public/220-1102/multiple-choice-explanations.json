@@ -11,5 +11,9 @@
   "9": "The Windows Task Manager performance tab displays the up time of the operating system.",
   "10": "An anti-virus message identifying malware and then asking for money is commonly fake and is not a legitimate notification.",
   "11": "Once malware symptoms are verified on a system, the next step is to completely isolate the system from the network and other devices.",
-  "12": "An operating system requires enough storage space to download and install the updated OS files."
+  "12": "An operating system requires enough storage space to download and install the updated OS files.",
+  "13": "D. devmgmt.msc is the Microsoft console window known as Device Manager. mmc opens up a new blank Microsoft Management Console. secpol.msc opens the Local Security Policy window. cmd opens the Command Prompt.",
+  "14": "perfmon.msc (or perfmon.exe) opens the Performance Monitor utility, which is used to graphically track the resources that are being used on a computer, such as CPU, RAM, and so on. You could also use Task Manager > Performance to track resource usage (but without the ability to save the data), as well as the Resource Monitor. devmgmt.msc opens the Device Manager. eventvwr.msc opens the Event Viewer. compmgmt.msc opens the Computer Management console window.",
+  "15": "The Security log contains information about auditing and other security events. The System log contains information about the OS and system files. The Application log contains information about built-in Windows programs and some third-party programs. Local Users and Groups is an administrative tool you can use to add people and systems to the local computer.",
+  "16": "The Task Scheduler can run particular programs at scheduled times designated by the user. The Services console window is where you go to start, stop, and restart services. The Event Viewer is used to find messages about the system, applications, and security developments. The Task Manager is used to analyze the performance of a system and view the applications and services that are running."
 }
