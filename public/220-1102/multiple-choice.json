@@ -15,5 +15,5 @@
   "Which of the following do you type in the Run prompt to open the Device Manager?": ["mmc", "secpol.msc", "cmd", "*devmgmt.msc", "none of the listed"],
   "Which of the following would you use to track the percentage of resources being used?": ["devmgmt.msc", "eventvwr.msc", "compmgmt.msc", "*perfmon.msc", "none of the listed"],
   "Which log file in the Event Viewer contains information concerning auditing?": ["System", "Application", "Local Users and Groups", "*Security", "None of the listed"],
-  "5. Which tool can run particular programs at times designated by the user?": ["Services", "*Task Scheduler", "Event Viewer", "Task Manager", "None of the listed"]
+  "Which tool can run particular programs at times designated by the user?": ["Services", "*Task Scheduler", "Event Viewer", "Task Manager", "None of the listed"]
 }
