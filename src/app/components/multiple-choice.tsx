@@ -200,7 +200,8 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
         {/* explanations button; will show only when the exam starts */}
         <div>
           <button className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey'}} onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
-          {beginTruthy ? (
+          {/* {beginTruthy ? ( */}
+          { choiceDisabled ? (
             <button className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey', marginLeft: '10px'}} onClick={showExplanation} disabled={nextButtonDisabled}>Explanation</button>) : null
           } 
         </div>
