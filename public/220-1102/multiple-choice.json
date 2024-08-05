@@ -19,5 +19,8 @@
   "You are preparing to troubleshoot a system that is having some driver issues. Which of the following tools should you use to configure the system to boot safely?": ["Event Viewer", "Resource Monitor", "msinfo32", "*System Configuration", "None of the listed"],
   "You have been tasked with repairing a magnetic-based hard drive that is running sluggishly. Which of the following tools should you use to fix the problem? (Select the best answer.)": ["Disk Management", "*Optimize Drives", "Storage Spaces", "Mount point", "None of the listed"],
   "What is HKEY_LOCAL_MACHINE considered to be?": ["A registry entry", "A subkey", "A string value", "*A hive", "None of the listed"],
-  "What must you do first to a basic disk to create spanned, striped, mirrored, or RAID 5 volumes in Disk Management?": ["Extend it", "Shrink it", "Split it", "Initialize it", "*Convert it to dynamic"]
+  "What must you do first to a basic disk to create spanned, striped, mirrored, or RAID 5 volumes in Disk Management?": ["Extend it", "Shrink it", "Split it", "Initialize it", "*Convert it to dynamic"],
+  "Which power management mode stores data on a storage drive?": ["Sleep", "*Hibernate", "Standby", "All of the listed", "None of the listed"],
+  "What tool can assist a user who needs to find results faster when searching for files on a storage drive?": ["firewall.cpl", "Internet Options", "appwiz.cpl", "*Indexing", "None of the listed"],
+  "A customer wants you to set up the system to scale images at 200%. Which Control Panel icon should you access to configure this?": ["Programs and Features", "Mail", "Sound", "*Ease of Access Center", "Devices and Printers"]
 }
