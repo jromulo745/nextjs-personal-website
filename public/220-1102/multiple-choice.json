@@ -22,5 +22,8 @@
   "What must you do first to a basic disk to create spanned, striped, mirrored, or RAID 5 volumes in Disk Management?": ["Extend it", "Shrink it", "Split it", "Initialize it", "*Convert it to dynamic"],
   "Which power management mode stores data on a storage drive?": ["Sleep", "*Hibernate", "Standby", "All of the listed", "None of the listed"],
   "What tool can assist a user who needs to find results faster when searching for files on a storage drive?": ["firewall.cpl", "Internet Options", "appwiz.cpl", "*Indexing", "None of the listed"],
-  "A customer wants you to set up the system to scale images at 200%. Which Control Panel icon should you access to configure this?": ["Programs and Features", "Mail", "Sound", "*Ease of Access Center", "Devices and Printers"]
+  "A customer wants you to set up the system to scale images at 200%. Which Control Panel icon should you access to configure this?": ["Programs and Features", "Mail", "Sound", "*Ease of Access Center", "Devices and Printers"],
+  "Which of the following sections of Windows Settings allows a user to copy important information about a PC and possibly send it to a technician for troubleshooting purposes?": ["*System > About", "Network & Internet > Ethernet", "Ease of Access > Narrator", "Privacy > Diagnostics & Feedback", "None of the listed"],
+  "Which window would you navigate to in order to modify the virtual memory settings in Windows? (Select the best answer.)": ["Network & Internet", "*Performance Options", "Devices", "Device Manager", "Display"],
+  "What should you modify if you need to change the number of pixels that are displayed horizontally and vertically on the screen?": ["Color Space", "Refresh rate", "*Resolution", "Scaling", "None of the listed"]
 }
