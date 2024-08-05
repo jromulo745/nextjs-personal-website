@@ -20,5 +20,4 @@
   "You have been tasked with repairing a magnetic-based hard drive that is running sluggishly. Which of the following tools should you use to fix the problem? (Select the best answer.)": ["Disk Management", "*Optimize Drives", "Storage Spaces", "Mount point", "None of the listed"],
   "What is HKEY_LOCAL_MACHINE considered to be?": ["A registry entry", "A subkey", "A string value", "*A hive", "None of the listed"],
   "What must you do first to a basic disk to create spanned, striped, mirrored, or RAID 5 volumes in Disk Management?": ["Extend it", "Shrink it", "Split it", "Initialize it", "*Convert it to dynamic"]
-
 }
