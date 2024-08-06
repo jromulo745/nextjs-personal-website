@@ -4,3 +4,58 @@
   font-family: 'Tangerine', cursive;
   font-size: 75px;
 }
+
+/* ------------------------------------------------------ */
+
+.button {
+  
+}
+
+.overlay {
+  overflow: scroll;
+  position: absolute;
+  display: none;
+  width: 75%;
+  height: 50%;
+  top: 25%;
+  left: 12.5%;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 2;
+  font-size: 20px;
+  /* cursor: pointer; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px grey;
+  /* ------------------------------------ */
+  animation: fadeIn 0.5s;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  -o-animation: fadeIn 0.5s;
+  -ms-animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

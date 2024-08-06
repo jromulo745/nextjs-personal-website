@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from "react";
+import styles from '../components/styles.module.css';
 
 export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1: string, file_path_2: string}) {
 
@@ -192,6 +193,14 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
     // console.log('here: ' + correctIndex);
   }
 
+  function showOverlay() {
+    (document.getElementById("overlay") as HTMLInputElement).style.display = 'block';
+  }
+  
+  function hideOverlay() {
+    (document.getElementById("overlay") as HTMLInputElement).style.display = 'none';
+  }
+  
   return (
     <div className="flex justify-center">
       <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10 multiple-choice" style={{flex: 1, maxWidth: '768px'}}>
@@ -202,9 +211,20 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
           <button className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey'}} onClick={startExam} disabled={nextButtonDisabled}>{buttonText}</button>
           {/* {beginTruthy ? ( */}
           { choiceDisabled ? (
-            <button className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey', marginLeft: '10px'}} onClick={showExplanation} disabled={nextButtonDisabled}>Explanation</button>) : null
+            <button className="border rounded-2xl p-2.5 hover:shadow-lg" style={{borderColor: 'grey', marginLeft: '10px'}} onClick={showOverlay} disabled={nextButtonDisabled}>Explanation</button>) : null
           } 
         </div>
+
+        {/* ------------------------------------------ */}
+
+        <div id="overlay" className={styles.overlay}>
+          <div style={{display: 'flex'}}>
+            <button style={{color: 'grey', margin: '10px 10px', marginLeft: 'auto', fontSize: '17px'}} onClick={hideOverlay}>X</button>
+          </div>
+          <p style={{color: 'grey', margin: '5px 20px', fontSize: '15px', overflow: 'scroll'}}>{explanations[counter]}</p>
+        </div>
+
+        {/* ------------------------------------------ */}
         
         {beginTruthy ? (
           <div className="flex flex-col items-center justify-center">
