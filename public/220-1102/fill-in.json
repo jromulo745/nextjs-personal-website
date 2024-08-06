@@ -29,6 +29,7 @@
   "Enter the command that executes the following action: brings up a window that tells you what operating system you are running, the edition, and the build number.": "winver",
   "Enter the command that executes the following action: displays the Windows version.": "ver",
   "Enter the command that executes the following action: used to turn off a computer, restart it, send it to hibernate mode, log a person off, and so on.": "shutdown",
+  "Enter the command that executes the following action: used to turn off a computer (enter the correct the flag for the standard operation).": "shutdown /s",
   "Enter the command that executes the following action: updates multiple Group Policy settings.": "gpupdate",
   "Enter the command that executes the following action: displays the Resultant Set of Policy (RSoP) information for a target user and computer.": "gpresult",
   "Command-line utility for Windows servers and workstations that displays the current TCP/IP configuration of the machine. Similar to ip in Linux.": "ipconfig",
