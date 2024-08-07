@@ -105,6 +105,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
         updateCounter(counter + 1);
         setChoiceDisabled(false); // enable the buttons for the choices after assessing
         setNextButtonDisabled(true);
+        hideOverlay();
         //---------------------------------------------------
         setButtonColor1('transparent'); // reset button color
         setButtonColor2('transparent'); // reset button color
