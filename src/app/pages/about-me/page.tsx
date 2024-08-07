@@ -5,7 +5,7 @@ export default function AboutMePage() {
     <div>
       <Navbar />
       <div className="flex justify-center" style={{gap: '20px'}}>
-        <div className="backdrop-blur-md border rounded-3xl mb-20 mt-10 p-10 max-w-3xl work-photo-section">
+        <div className="backdrop-blur-md border rounded-3xl mb-20 mt-10 ml-10 p-10 max-w-3xl work-photo-section" >
           <h1 className="text-4xl mb-5" style={{textAlign: 'center'}}>Work Photo</h1>
           <img src="/images/photo.png" style={{alignContent: 'center'}} width="283" height="377"></img>
           
@@ -18,7 +18,7 @@ export default function AboutMePage() {
           </div>
         </div>
 
-        <div className="backdrop-blur-md border rounded-3xl  mb-20 mt-10 p-10 max-w-xl">
+        <div className="backdrop-blur-md border rounded-3xl mb-20 mt-10 mr-10 p-10 max-w-xl work-history-section">
           <h1 className="text-3xl mb-5" style={{textAlign: 'center', color: '#9B9EAE'}}>About me</h1>
           <p className="mt-5" style={{color: '#6E717A'}}>I am a computer science graduate from CSUEB with experience with the following technologies: JavaScript, TypeScript, React, NextJS, HTML5, CSS3, Python, Java, and C++. I have also worked for Cal State East Bay's Information Technology department as an analyst aiding with digital accessibility media production and IT asset procurement.</p>
       

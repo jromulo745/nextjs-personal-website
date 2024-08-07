@@ -158,6 +158,10 @@ h2, p, button {
   .work-photo-section {
     display: none;
   }
+
+  .work-history-section {
+    margin-left: 40px;
+  }
   /* ---------------------------------------------- */
   /* Apps Page */
   .multiple-choice, .fill-in, .eleven-o-one, .eleven-o-two {
