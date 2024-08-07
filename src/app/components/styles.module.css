@@ -13,7 +13,7 @@
 
 .overlay {
   overflow: scroll;
-  position: fixed;
+  position: absolute;
   display: none;
   width: 75%;
   height: 50%;
