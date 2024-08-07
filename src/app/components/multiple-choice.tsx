@@ -204,7 +204,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
   
   return (
     <div className="flex justify-center">
-      <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10 multiple-choice" style={{flex: 1, maxWidth: '768px', display: 'relative'}}>
+      <div className="flex flex-col items-center backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10 multiple-choice" style={{flex: 1, maxWidth: '768px'}}>
         <h1 className="text-3xl mb-5" style={{color: 'grey'}}>Multiple Choice</h1>
         
         {/* explanations button; will show only when the exam starts */}
