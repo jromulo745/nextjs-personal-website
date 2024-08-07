@@ -39,13 +39,14 @@ export default function FillIn({file_path}: {file_path: string}) {
   }
 
   function startExam() { // double serves as the Next button
-    if (examStarted) {
+    if (examStarted) { // 'Next' button
       updateCounter(counter + 1);
       (document.getElementById("answer") as HTMLInputElement).value = ''; // clear the text input field when moving to the next question
       setNextButtonDisabled(true);
       (document.getElementById("answer") as HTMLInputElement).style.backgroundColor = 'transparent';
       setSubmitDisabled(false);
-    } else {
+      (document.getElementById("answer") as HTMLInputElement).disabled = false;
+    } else { // 'Start' Button
       setBeginTruthy(true);
       setButtonText('Next');
       setExamStarted(true);
@@ -66,6 +67,8 @@ export default function FillIn({file_path}: {file_path: string}) {
       (document.getElementById("answer") as HTMLInputElement).style.backgroundColor = 'red';
       setTimeout(() => alert("Not quite, the correct answer is \"" + answers[counter] + "\""), 10);
     }
+
+    (document.getElementById("answer") as HTMLInputElement).disabled = true;
     
     setSubmitDisabled(true); // once an answer has been submitted, can't resubmit for the same question
     setNextButtonDisabled(false); // once the current answer has been answer, end user can move on to the next one
