@@ -221,7 +221,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
           <div style={{display: 'flex'}}>
             <button style={{color: 'grey', margin: '10px 10px', marginLeft: 'auto', fontSize: '17px'}} onClick={hideOverlay}>X</button>
           </div>
-          <p style={{color: 'grey', margin: '5px 20px', fontSize: '15px', overflow: 'scroll'}}>{explanations[counter]}</p>
+          <p style={{color: 'grey', margin: '5px 20px', fontSize: '15px'}}>{explanations[counter]}</p>
         </div>
 
         {/* ------------------------------------------ */}
