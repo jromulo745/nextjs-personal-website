@@ -69,6 +69,10 @@ export default function FillIn({file_path}: {file_path: string}) {
     
     setSubmitDisabled(true); // once an answer has been submitted, can't resubmit for the same question
     setNextButtonDisabled(false); // once the current answer has been answer, end user can move on to the next one
+
+    if ((counter + 1) == listLength) {
+      setNextButtonDisabled(true);
+    }
   }
 
   useEffect(() => {
