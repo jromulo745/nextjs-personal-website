@@ -162,6 +162,8 @@ h2, p, button {
   .work-history-section {
     margin-left: 20px;
     margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   /* ---------------------------------------------- */
   /* Apps Page */
