@@ -227,7 +227,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
         {/* ------------------------------------------ */}
         
         {beginTruthy ? (
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center" style={{zIndex: '1'}}>
             <p className="mt-5 mb-5">{`(${counter + 1} of ${listLength})`}</p>
             <p>{questions[counter]}</p>
             <button id="button1" style={{backgroundColor: buttonColor1, borderColor: 'grey'}} className="border rounded-2xl p-2.5 mt-5 hover:shadow-lg" onClick={() => checkAnswer(1)} disabled={choiceDisabled}>{answers[counter][0][0] === '*' ? answers[counter][0].substring(1): answers[counter][0]}</button>
