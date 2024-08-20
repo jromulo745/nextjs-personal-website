@@ -191,7 +191,6 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
       default:
         break;
     }
-    // console.log('here: ' + correctIndex);
   }
 
   function showOverlay() {
