@@ -12,7 +12,7 @@ export default function HomePage() {
       <div className="flex justify-center">
         <div className="backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10 max-w-3xl introduction">
           <h2 className="flex justify-center text-3xl mb-5 title" style={{color: '#9B9EAE'}}>IT | Software Developer</h2>
-          <p className="mt-5" style={{color: '#6E717A'}}>Hello! My name is Joshua Jefson Romulo, and this is my portfolio website, programmed  using NextJS. I'm a computer science graduate with work experience in IT, and some of my interests include web development, music production, and film appreciation. Cheers!</p>
+          <p className="mt-5" style={{color: '#6E717A'}}>Hello! My name is Joshua Jefson Romulo, and this is my portfolio website, programmed  using NextJS. I'm a computer science graduate with work experience in IT, and some of my interests include web/mobile application development and cybersecurity. Cheers!</p>
         </div>
       </div>
 
