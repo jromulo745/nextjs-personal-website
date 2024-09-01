@@ -57,5 +57,6 @@
   "Command-line program in Windows used to determine exactly what information the DNS server is providing about a specific host name.": "nslookup",
   "Command-line utility in Windows that enables users to view and change a whole host of network settings and information.": "net",
   "Enter the command to create an account.": "net user /add",
-  "Enter the [PowerShell] command to learn what volumes are available on a system.": "get-volume"
+  "Enter the [PowerShell] command to learn what volumes are available on a system.": "get-volume",
+  "Enter the command that starts the Device Manager (using the Run prompt / command line / PowerShell)": "devmgmt.msc"
 }
