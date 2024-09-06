@@ -57,5 +57,16 @@
   "Command-line program in Windows used to determine exactly what information the DNS server is providing about a specific host name.": "nslookup",
   "Command-line utility in Windows that enables users to view and change a whole host of network settings and information.": "net",
   "Enter the command to create an account.": "net user /add",
-  "Enter the [PowerShell] command to learn what volumes are available on a system.": "get-volume"
+  "Enter the [PowerShell] command to learn what volumes are available on a system.": "get-volume",
+  "Enter the command that starts the Device Manager (using the Run prompt / command line / PowerShell)": "devmgmt.msc",
+  "A _________ is a logical division of a drive. A volume is any space among one or more drives that receives a drive letter.": "partition",
+  "A partition is a logical division of a drive. A ______ is any space among one or more drives that receives a drive letter.": "volume",
+  "A _______ drive is a drive that is mapped to an empty folder within a volume that has been formatted as NTFS.": "mounted",
+  "Which registry hive fits the following description: Stores information about applications’ file associations and Object Linking and Embedding (OLE).": "HKEY_CLASSES_ROOT",
+  "Which registry hive fits the following description: Stores settings that concern the currently logged-on user. It is common to make changes in this hive.": "HKEY_CURRENT_USER",
+  "Which registry hive fits the following description: Stores hardware and software settings that are specific to the computer. This is where the bulk of a PC technician’s registry edits are made. One example of data stored here is the programs that run when the OS starts.": "HKEY_LOCAL_MACHINE",
+  "Which registry hive fits the following description: Stores data corresponding to all users who have ever logged on to the computer.": "HKEY_USERS",
+  "Which registry hive fits the following description: Contains information that is gathered every time the computer starts up.": "HKEY_CURRENT_CONFIG",
+  "Hives are also known as ____, and they contain other ____ and sub____.": "keys",
+  "The registry does not store actual data files; it stores ________.": "settings"
 }
