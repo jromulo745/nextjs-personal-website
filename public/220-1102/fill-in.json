@@ -68,5 +68,7 @@
   "Which registry hive fits the following description: Stores data corresponding to all users who have ever logged on to the computer.": "HKEY_USERS",
   "Which registry hive fits the following description: Contains information that is gathered every time the computer starts up.": "HKEY_CURRENT_CONFIG",
   "Hives are also known as ____, and they contain other ____ and sub____.": "keys",
-  "The registry does not store actual data files; it stores ________.": "settings"
+  "The registry does not store actual data files; it stores ________.": "settings",
+  "Enter the PowerShell command (when in elevated mode) to turn on the Hibernate mode.": "powercfg.exe /hibernate on",
+  "The ____ __ ______ ______ on Windows 10 allows a user to turn on a variety of tools: the magnifier to view small objects more easily, the narrator for voice prompts while working in Windows, the onscreen keyboard, and high contrast.": "Ease of Access Center"
 }
