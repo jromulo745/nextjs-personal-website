@@ -74,5 +74,7 @@
   "Enter the command to view the name of the device.": "hostname",
   "Enter the copy command tha verifies that new files are written correctly": "copy /v",
   "Enter that suppresses prompting to confirm you want to overwrite an existing destination file": "copy /y",
-  "Enter the PowerShell command (when in elevated mode) to have Windows convert the Windows Update log files into a readable manner (which will be sent to your desktop).": "Get-WindowsUpdateLog"
+  "Enter the PowerShell command (when in elevated mode) to have Windows convert the Windows Update log files into a readable manner (which will be sent to your desktop).": "Get-WindowsUpdateLog",
+  "What protocol does ping use?": "ICMP",
+  "What does ICMP stand for?": "Internet Control Message Protocol"
 }
