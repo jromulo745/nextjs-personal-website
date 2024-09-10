@@ -72,8 +72,8 @@
   "Enter the PowerShell command (when in elevated mode) to turn on the Hibernate mode.": "powercfg.exe /hibernate on",
   "The ____ __ ______ ______ on Windows 10 allows a user to turn on a variety of tools: the magnifier to view small objects more easily, the narrator for voice prompts while working in Windows, the onscreen keyboard, and high contrast.": "Ease of Access Center",
   "Enter the command to view the name of the device.": "hostname",
-  "Enter the copy command tha verifies that new files are written correctly": "copy /v",
-  "Enter that suppresses prompting to confirm you want to overwrite an existing destination file": "copy /y",
+  "Enter the copy command that verifies that new files are written correctly.": "copy /v",
+  "Enter that suppresses prompting to confirm you want to overwrite an existing destination file.": "copy /y",
   "Enter the PowerShell command (when in elevated mode) to have Windows convert the Windows Update log files into a readable manner (which will be sent to your desktop).": "Get-WindowsUpdateLog",
   "What protocol does ping use?": "ICMP",
   "What does ICMP stand for?": "Internet Control Message Protocol"
