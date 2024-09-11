@@ -46,5 +46,10 @@
     "44": "Note: Opening the System icon in the Control Panel automatically redirects to Settings. We’ll cover this further in Chapter 36.",
     "45": "Know how to enable and disable audio devices in the Playback and Recording tabs of the Sound dialog box.",
     "46": "Know the differences between standby, sleep, and hibernate and understand how to set up hibernation in Windows.",
-    "47": "Objective 1.5 concentrates on the following Windows settings: Time & Language, Update & Security, Personalization, Apps, Privacy, System, Devices, Network & Internet, Gaming, and Accounts."
+    "47": "Objective 1.5 concentrates on the following Windows settings: Time & Language, Update & Security, Personalization, Apps, Privacy, System, Devices, Network & Internet, Gaming, and Accounts.",
+    "48": "Know how to run and troubleshoot Windows Update.",
+    "49": "Know where and how to modify display resolution and scaling in Settings.",
+    "50": "Note: Color depth is different from color space. This refers to the number of colors that the Windows desktop uses. In the old days, you could have 8-bit color, 16-bit color, and other options. However, in Windows 10/11, the default option is 32-bit, which means 4,294,967,296 colors. Because of this, you might have difficulty displaying older programs properly. With older programs, you can use the Program Compatibility tool (discussed in Chapter 35) to run the programs at a lower color depth. You might also accomplish this within the Advanced Display settings or by using a virtual machine.",
+    "51": "Know the tabs of the System Properties dialog box.",
+    "52": "Know where to configure virtual memory and know the location of pagefile.sys."
 }
