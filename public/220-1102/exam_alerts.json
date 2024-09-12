@@ -51,5 +51,11 @@
     "49": "Know where and how to modify display resolution and scaling in Settings.",
     "50": "Note: Color depth is different from color space. This refers to the number of colors that the Windows desktop uses. In the old days, you could have 8-bit color, 16-bit color, and other options. However, in Windows 10/11, the default option is 32-bit, which means 4,294,967,296 colors. Because of this, you might have difficulty displaying older programs properly. With older programs, you can use the Program Compatibility tool (discussed in Chapter 35) to run the programs at a lower color depth. You might also accomplish this within the Advanced Display settings or by using a virtual machine.",
     "51": "Know the tabs of the System Properties dialog box.",
-    "52": "Know where to configure virtual memory and know the location of pagefile.sys."
+    "52": "Know where to configure virtual memory and know the location of pagefile.sys.",
+    "53": "Objective 1.6 focuses on workgroup vs. domain setup, local OS firewall settings, client network configuration, establishing network connections, proxy settings, public networks vs. private networks, File Explorer navigation and network paths, and metered connections and limitations.",
+    "54": "Be able to define the differences between a workgroup and a domain and know where to change from one to the other (System Properties dialog box > Computer Name tab).",
+    "55": "Note: Some companies with small networks avoid Windows sharing altogether and instead install a network-attached storage (NAS) device that also has print server capabilities.",
+    "56": "Know how to map network drives in the GUI and at the command line.",
+    "57": "Know how to connect (map) to a network printer by printer share name or IP address.",
+    "58": "Know how to navigate to and configure the proxy settings in Windows!"
 }
