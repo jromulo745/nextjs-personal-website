@@ -79,5 +79,9 @@
   "_____ _____ in Windows refers to the dynamic range of color intensity and luminance and how colors are represented on the display.": "Color space",
   "Enter the PowerShell command (when in elevated mode) to have Windows convert the Windows Update log files into a readable manner (which will be sent to your desktop).": "Get-WindowsUpdateLog",
   "What protocol does ping use?": "ICMP",
-  "What does ICMP stand for?": "Internet Control Message Protocol"
+  "What does ICMP stand for?": "Internet Control Message Protocol",
+  "In the context of Windows networking, _________, (sometimes also referred to as peer-to-peer) is usually a small group of computers that share the same network name. No single computer controls the network, and all systems are considered equal. One of the disadvantages is that a computer storing data can be accessed only by a maximum of 20 other systems simultaneously.": "workgroup",
+  "In the context of Windows networking, A ______ (sometimes also referred to as a client/server network) builds on the idea of a workgroup by having one or more computers (servers) that are in control of the network. This enables more computers, more simultaneous access, and centralized administration. A domain also gets a name, such as dprocomputer.com.": "domain",
+  "A domain is controlled by a Microsoft server known as a ______ __________.": "domain controller",
+  "Some organizations use _____ _______ to cache HTTPS, FTP, and other information.": "proxy servers"
 }
