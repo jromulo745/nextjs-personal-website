@@ -57,5 +57,12 @@
     "55": "Note: Some companies with small networks avoid Windows sharing altogether and instead install a network-attached storage (NAS) device that also has print server capabilities.",
     "56": "Know how to map network drives in the GUI and at the command line.",
     "57": "Know how to connect (map) to a network printer by printer share name or IP address.",
-    "58": "Know how to navigate to and configure the proxy settings in Windows!"
+    "58": "Know how to navigate to and configure the proxy settings in Windows!",
+    "59": "Side fact: Generally, when people use the term x86, they refer to 32-bit CPUs that enable 4 GB of address space",
+    "60": "Side fact: 64-bit CPUs can run 64-bit and 32-bit software",
+    "61": "Objective 1.7 focuses on system requirements for applications, OS requirements for applications, distribution methods, and other considerations for new applications.",
+    "62": "Know the differences between 32-bit and 64-bit architectures. For example, remember that 32-bit CPUs can only address a maximum of 4 GB of RAM, and 64-bit CPUs can address many terabytes of RAM.",
+    "63": "Know the locations for 64-bit and 32-bit system files and program files in Windows.",
+    "64": "Understand minimum requirements categories for software, including CPU, RAM, GPU (and VRAM), storage space, and OS type and edition.",
+    "65": "An ISO image (.iso file) is a single file that represents a complete set of files that would be placed on an optical disc. It’s commonly used for operating systems and large applications."
 }
