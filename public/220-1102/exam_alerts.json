@@ -68,5 +68,13 @@
     "66": "Objective 1.8 focuses on workstation operating systems, cell phone/tablet operating systems, various file system types, vendor life-cycle limitations, and compatibility concerns between operating systems.",
     "67": "Understand the difference between open source and closed source.",
     "68": "Know the differences between NTFS, FAT32, and exFAT.",
-    "69": "Remember that a software version has an end-of-support date, also known as an end-of-life date. Be ready to have an upgrade plan well before that date!"
+    "69": "Remember that a software version has an end-of-support date, also known as an end-of-life date. Be ready to have an upgrade plan well before that date!",
+    "70": "Objective 1.9 focuses on boot methods, types of installations, partitioning, drive format, upgrade considerations, and feature updates.",
+    "71": "Book fact: There are free programs available that can speed up the process by making the drive bootable, formatting it, and extracting the .ISO all at once (for instance, Rufus, Yumi, and the Windows USB/DVD Download Tool).",
+    "72": "Note: By the way, when you sit at a computer and answer all the questions it asks you, step-by-step, it is known as an attended installation; you are attending to the computer as the installation progresses.",
+    "73": "Know these boot methods for OS installation and upgrades: optical disc, external/flash drive, network boot (PXE), internal drive, and Internet based.",
+    "74": "Know the difference between local, network, drive image, and recovery partition installations.",
+    "75": "Know the differences between basic and dynamic drives.",
+    "76": "Know the differences between GPT and MBR! GPT is newer and better, has 128 partitions, and can go far beyond the 2 TB MBR maximum partition size.",
+    "77": "Know how to use the Disk Management and diskpart utilities!"
 }
