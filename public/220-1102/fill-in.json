@@ -88,6 +88,6 @@
   "The __-bit system files and apps are stored in C:\\Windows\\SysWOW64.": "32",
   "__-bit programs are stored in C:\\Program Files": "64",
   "__-bit programs are stored in C:\\Program Files (x86)": "32",
-  "___ is a distributed file system that allows a client computer toa ccess files over the network.": "NFS",
+  "___ is a distributed file system that allows a client computer to access files over the network.": "NFS",
   "Within the context of file systems, what does NFS stand for?": "Network File System"
 }
