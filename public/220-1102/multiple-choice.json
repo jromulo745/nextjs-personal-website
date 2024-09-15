@@ -36,5 +36,10 @@
   "Which of the following is used on iPads newer than 2019?": ["Chrome OS", "Windows 10", "*iPad OS", "Android", "iOS"],
   "Scenario: It’s the summer of 2024. Your company has many types of technologies running—and many of them interact with each other. Of the following operating systems that are used in your company’s infrastructure, which is not a major security concern?": ["Windows 8.1", "Windows 10 (21H1)", "*Ubuntu 20.04 LTS", "macOS 11.0", "None of the listed"],
   "Which of the following statements is true?": ["Android is an example of closed source software.", "32-bit CPUs can only address a maximum of 256 GB of RAM.", "Chrome OS is designed by Apple to use mostly desktop applications.", "*64-bit versions of Windows can run 32-bit apps as well as 64-bit apps.", "All of the listed"],
-  "Which of the following does macOS use that works in a similar fashion to Linux-based file systems?": ["*APFS", "EOL", "ext4", "exFAT", "None of the listed"]
+  "Which of the following does macOS use that works in a similar fashion to Linux-based file systems?": ["*APFS", "EOL", "ext4", "exFAT", "None of the listed"],
+  "Which of the following installation types would require PXE compliance?": ["Local", "*Network", "Internal", "USB flash drive", "None of the listed"],
+  "To avoid SID conflicts when drive imaging, which program should you use in Windows?": ["*Sysprep", "diskpart", "SIM", "Windows Deployment Services", "None of the listed"],
+  "You are tasked with installing Windows with the standard configuration. It needs to support a storage drive with a single 8 TB partition. Which of the following should you configure the system to use?": ["*GPT", "FAT32", "MBR", "ext4", "None of the listed"],
+  "Which of the following uses an answer file to provide responses and eliminates the need for user intervention?": ["Factory recovery partition", "Clean installation", "*Unattended installation", "Reset your PC", "None of the listed"],
+  "What should a technician consider first when planning to install Windows to a newer, less common storage drive? (Select the best answer.)": ["*Alternate third-party drivers", "A repair installation", "Recovery parition", "The product life cycle", "All of the listed"]
 }
