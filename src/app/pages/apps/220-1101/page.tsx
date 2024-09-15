@@ -12,6 +12,9 @@ export default function Page() {
       <MultipleChoice file_path_1={"/220-1101/multiple-choice.json"} file_path_2={"/220-1101/multiple-choice-explanations.json"}/>
       {/* ---------------------------------------------------------- */}
       <FillIn file_path={"/220-1101/fill-in.json"} />
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
