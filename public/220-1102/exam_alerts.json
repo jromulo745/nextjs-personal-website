@@ -76,5 +76,13 @@
     "74": "Know the difference between local, network, drive image, and recovery partition installations.",
     "75": "Know the differences between basic and dynamic drives.",
     "76": "Know the differences between GPT and MBR! GPT is newer and better, has 128 partitions, and can go far beyond the 2 TB MBR maximum partition size.",
-    "77": "Know how to use the Disk Management and diskpart utilities!"
+    "77": "Know how to use the Disk Management and diskpart utilities!",
+    "78": "Objective 1.10 focuses on macOS: the installation and uninstallation of applications, Apple ID and corporate restrictions, best practices, system preferences, features, Disk Utility, FileVault, Terminal, and Force Quit.",
+    "80": "macOS is closed source and is based on BSD (Unix).",
+    "81": "Use the Dock to open common applications and switch between running apps.",
+    "82": "Understand what the Finder and Spotlight programs are in macOS.",
+    "83": "Know how to configure multiple desktops, Screen Sharing, and the replication of the display to a secondary monitor.",
+    "84": "Consider configuring the Keychain utility to save passwords to an iCloud account. This will enable password population even if a user switches to a replacement macOS device.",
+    "85": "Know how to use the Time Machine, Disk Utility, and Force Quit tools in macOS.",
+    "86": "Know the differences between .dmg, .app, and .pkg. For example, you can’t install from a .dmg file on Windows because that file type is not compatible with Windows; it is designed for macOS."
 }
