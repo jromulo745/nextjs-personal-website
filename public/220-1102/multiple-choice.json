@@ -41,5 +41,13 @@
   "To avoid SID conflicts when drive imaging, which program should you use in Windows?": ["*Sysprep", "diskpart", "SIM", "Windows Deployment Services", "None of the listed"],
   "You are tasked with installing Windows with the standard configuration. It needs to support a storage drive with a single 8 TB partition. Which of the following should you configure the system to use?": ["*GPT", "FAT32", "MBR", "ext4", "None of the listed"],
   "Which of the following uses an answer file to provide responses and eliminates the need for user intervention?": ["Factory recovery partition", "Clean installation", "*Unattended installation", "Reset your PC", "None of the listed"],
-  "What should a technician consider first when planning to install Windows to a newer, less common storage drive? (Select the best answer.)": ["*Alternate third-party drivers", "A repair installation", "Recovery parition", "The product life cycle", "All of the listed"]
+  "What should a technician consider first when planning to install Windows to a newer, less common storage drive? (Select the best answer.)": ["*Alternate third-party drivers", "A repair installation", "Recovery parition", "The product life cycle", "All of the listed"],
+  "Which of the following is the built-in web browser for macOS?": ["*Safari", "Chrome", "Firefox", "Edge", "None of the listed"],
+  "Which of the following should be enabled when you want a user at another Mac to take control of your computer?": ["Remote Desktop", "Remote Assistance", "*Screen Sharing", "Screen Mirroring", "None of the listed"],
+  "Which utility allows a Mac user to dual-boot macOS and Windows?": ["Ubuntu", "apt-get", "bootrec", "*Boot Camp", "None of the listed"],
+  "You want to save the state of a Mac running macOS. Which tool should be used?": ["System Restore", "*Time Machine", "Force Quit", "Disk Utility", "None of the listed"],
+  "Due to recent corporate espionage attempts, a technician needs to secure the contents of the main storage drive on the CEO’s Mac. Which macOS utility will allow the tech to encrypt the drive? (Select the best answer.)": ["Terminal", "*FileVault", "App Store", "128-bit encryption", "None of the listed"],
+  "Which program handles installing a printer’s driver automatically in macOS? (Select the best answer.)": ["Bonjour", "Magic Mouse", "*AirPrint", "iCloud", "None of the listed"],
+  "You need to download an application that is not available on the App Store. It needs to be mounted as an image. Which of the following extensions should you use?": [".pkg", ".app", "*.dmg", "Finder", ".exe"],
+  "A customer reports that a spinning wheel appears on her screen whenever she tries to run a specific application. What does this spinning wheel represent? (Select the best answer.)": ["A failing CPU", "*An Apple macOS proprietary crash screen", "A Microsoft Windows proprietary crash screen", "A Linux proprietary crash screen", "Extended loading"]
 }
