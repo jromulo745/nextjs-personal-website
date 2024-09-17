@@ -58,7 +58,7 @@
   "Command-line utility in Windows that enables users to view and change a whole host of network settings and information.": "net",
   "Enter the command to create an account.": "net user /add",
   "Enter the [PowerShell] command to learn what volumes are available on a system.": "get-volume",
-  "Enter the command that starts the Device Manager (using the Run prompt / command line / PowerShell)": "devmgmt.msc",
+  "Enter the command that starts the Device Manager (using the Run prompt / command line / PowerShell).": "devmgmt.msc",
   "A _________ is a logical division of a drive. A volume is any space among one or more drives that receives a drive letter.": "partition",
   "A partition is a logical division of a drive. A ______ is any space among one or more drives that receives a drive letter.": "volume",
   "A _______ drive is a drive that is mapped to an empty folder within a volume that has been formatted as NTFS.": "mounted",
