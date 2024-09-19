@@ -90,5 +90,6 @@
   "__-bit programs are stored in C:\\Program Files (x86)": "32",
   "___ is a distributed file system that allows a client computer to access files over the network.": "NFS",
   "Within the context of file systems, what does NFS stand for?": "Network File System",
-  "What is the default location of the Spool folder in Windows?": "%systemroot%\\System32\\Spool\\Printers"
+  "What is the default location of the Spool folder in Windows?": "%systemroot%\\System32\\Spool\\Printers",
+  "The concept of ____ _____ is one that many organizations have been adopting over the past decade. Essentially, it means that the organization accepts the fact that attacks could come from inside or outside and that no system is 100% secure.": "zero trust"
 }
