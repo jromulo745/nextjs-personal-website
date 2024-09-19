@@ -89,5 +89,6 @@
   "__-bit programs are stored in C:\\Program Files": "64",
   "__-bit programs are stored in C:\\Program Files (x86)": "32",
   "___ is a distributed file system that allows a client computer to access files over the network.": "NFS",
-  "Within the context of file systems, what does NFS stand for?": "Network File System"
+  "Within the context of file systems, what does NFS stand for?": "Network File System",
+  "What is the default location of the Spool folder in Windows?": "%systemroot%\\System32\\Spool\\Printers"
 }
