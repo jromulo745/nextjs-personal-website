@@ -91,5 +91,17 @@
   "___ is a distributed file system that allows a client computer to access files over the network.": "NFS",
   "Within the context of file systems, what does NFS stand for?": "Network File System",
   "What is the default location of the Spool folder in Windows?": "%systemroot%\\System32\\Spool\\Printers",
-  "The concept of ____ _____ is one that many organizations have been adopting over the past decade. Essentially, it means that the organization accepts the fact that attacks could come from inside or outside and that no system is 100% secure.": "zero trust"
+  "The concept of ____ _____ is one that many organizations have been adopting over the past decade. Essentially, it means that the organization accepts the fact that attacks could come from inside or outside and that no system is 100% secure.": "zero trust",
+  "What is the Linux command that fits the following description: Lists directory contents. Similar to dir in Windows.": "ls",
+  "What is the Linux command that fits the following description: Changes the directory": "cd",
+  "What is the Linux command that fits the following description: Displays the full path/filename of the working directory. Don’t confuse this command with passwd!": "pwd",
+  "What is the Linux command that fits the following description: Moves (or renames) files. Similar to the Windows move command.": "mv",
+  "What is the Linux command that fits the following description: Copies files and directories. Similar to the Windows copy command.": "cp",
+  "What is the Linux command that fits the following description: Removes files or directories. Similar to the Windows del and rd commands.": "rm",
+  "What is the Linux command that fits the following description: Searches for files (or directories) in a directory hierarchy.": "find",
+  "What is the Linux command that fits the following description: Displays the contents of text files (and configuration files) within Terminal.": "cat",
+  "What is the Linux command that fits the following description: Reports file system disk space usage. The command df -T includes the file system used by each partition.": "df",
+  "What is the Linux command that fits the following description: Modifies the read and write permissions for a file or directory.": "chmod",
+  "What is the Linux command that fits the following description: Changes ownership for files and directories.": "chown",
+  "What is the Linux command that fits the following description: Displays information about a process/list running processes.": "ps"
 }
