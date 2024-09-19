@@ -111,5 +111,5 @@
   "What is the Linux command that fits the following description: Shows the TCP/IP properties of the wireless network connections and can be used to configure them.": "iwconfig",
   "What is the Linux command that fits the following description: Used to find information about DNS.": "dig",
   "What is the Linux command that fits the following description: An analysis program that displays the running Linux processes and the CPU and RAM usage for each.": "top",
-  "What is the Linux command that fits the following description: A text editor that can be run from Terminal. Included in most versions of Linux.": "nano",  
+  "What is the Linux command that fits the following description: A text editor that can be run from Terminal. Included in most versions of Linux.": "nano"
 }
