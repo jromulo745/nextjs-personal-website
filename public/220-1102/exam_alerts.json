@@ -89,5 +89,7 @@
     "88": "Note: For practice with Ubuntu, consider creating an Ubuntu bootable USB stick within Windows; see https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview. An Ubuntu bootable USB stick enables you to boot Linux from the flash drive and practice Linux commands using the built-in Terminal application. You might also consider downloading the latest version of Ubuntu and installing it on a virtual machine. Or, if you are using Windows, consider using the Windows Subsystem for Linux (WSL). Ubuntu Desktop can be downloaded from https://www.ubuntu.com/download/desktop.",
     "89": "Most Linux systems use the ext4 file system and GPT by default.",
     "90": "Know your Linux commands! Practice them on a distribution such as Ubuntu or Fedora.",
-    "91": "Understand how to update Linux systems with apt update and apt upgrade or dnf update."
+    "91": "Understand how to update Linux systems with apt update and apt upgrade or dnf update.",
+    "92": "This portion of Objective 2.1 concentrates on physical security and physical security for staff.",
+    "93": "An access control vestibule (mantrap) is used to stop and monitor people during the identification process."
 }
