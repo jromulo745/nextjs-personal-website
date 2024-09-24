@@ -94,5 +94,9 @@
   "This is a DNS record that resolves to the address of the servers that handle the email for the domain you are querying, for example an MX record response for tryhackme.com would look something like alt1.aspmx.l.google.com. These records also come with a priority flag. This tells the client in which order to try the servers, this is perfect for if the main server goes down and email needs to be sent to a backup server.": "MX Record",
   "___ _______ are free text fields where any text-based data can be stored. TXT records have multiple uses, but some common ones can be to list servers that have the authority to send an email on behalf of the domain (this can help in the battle against spam and spoofed email). They can also be used to verify ownership of the domain name when signing up for third party services.": "TXT Records",
   "What type of record would be used to advise where to send email?": "mx record",
-  "What type of record handles IPv6 addresses?": "aaaa record"
+  "What type of record handles IPv6 addresses?": "aaaa record",
+  "What field specifies how long a DNS record should be cached for?": "TTL",
+  "What does TTL stand for?": "Time to Live",
+  "What type of DNS Server is usually provided by your ISP?": "Recursive",
+  "What type of server holds all the records for a domain?": "Authoritative"
 }
