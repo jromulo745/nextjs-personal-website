@@ -98,5 +98,13 @@
   "What field specifies how long a DNS record should be cached for?": "TTL",
   "What does TTL stand for?": "Time to Live",
   "What type of DNS Server is usually provided by your ISP?": "Recursive",
-  "What type of server holds all the records for a domain?": "Authoritative"
+  "What type of server holds all the records for a domain?": "Authoritative",
+  "Which HTTP method fits the following description: used for getting information from a web server.": "GET",
+  "Which HTTP method fits the following description: used for submitting data to the web server and potentially creating new records.": "POST",
+  "Which HTTP method fits the following description: used for submitting data to a web server to update information.": "PUT",
+  "Which HTTP method fits the following description: used for deleting information/records from a web server.": "DELETE",
+  "What method would be used to create a new user account?": "POST",
+  "What method would be used to update your email address?": "PUT",
+  "What method would be used to remove a picture you've uploaded to your account?": "DELETE",
+  "What method would be used to view a news article?": "GET"
 }
