@@ -91,5 +91,12 @@
     "90": "Know your Linux commands! Practice them on a distribution such as Ubuntu or Fedora.",
     "91": "Understand how to update Linux systems with apt update and apt upgrade or dnf update.",
     "92": "This portion of Objective 2.1 concentrates on physical security and physical security for staff.",
-    "93": "An access control vestibule (mantrap) is used to stop and monitor people during the identification process."
+    "93": "An access control vestibule (mantrap) is used to stop and monitor people during the identification process.",
+    "94": "This portion of Objective 2.1 concentrates on the following: logical security, mobile device management (MDM), and Active Directory.",
+    "95": "When two or more authentication factors are combined, such as a password and a physical token, the result is multi-factor authentication (MFA).",
+    "96": "Know that a domain is Microsoft’s implementation of a client/server network. It centralizes the management of users and computers.",
+    "97": "Know how to access and configure the Group Policy Editor (gpedit.msc) and the Local Security Policy (secpol.msc).",
+    "98": "An authenticator app uses a passcode to achieve two-step verification.",
+    "99": "Protect email communications with encryption, digital signatures, secure ports, VPNs, and, especially, updates, and user education.",
+    "100": "It’s important to prevent spam email. Some methods include using spam filters, strong passwords, allow and deny lists, and user education!"
 }
