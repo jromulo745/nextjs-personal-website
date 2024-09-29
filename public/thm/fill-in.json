@@ -4,7 +4,7 @@
   "What address is used to identify the start of a network?": "Network Address",
   "What address is used to identify devices within a network?": "Host Address",
   "What is the name used to identify the device responsible for sending data to another network?": "Default Gateway",
-  "___ is responsible for finding the MAC (hardware) address related to a specific IP address. It works by broadcasting an ARP query, \"Who has this IP address? Tell me.\" And the response is of the form, \"The IP address is at this MAC address.\"": "ARP",
+  "___ is responsible for finding the MAC (hardware) address related to a specific IP address. It works by broadcasting an ___ query, \"Who has this IP address? Tell me.\" And the response is of the form, \"The IP address is at this MAC address.\"": "ARP",
   "What does ARP stand for?": "Address Resolution Protocol",
   "What category of ARP Packet asks a device whether or not it has a specific IP address?": "Request",
   "What category of ARP Packet responds whether a device whether or not it has a specific IP address?": "Reply",
