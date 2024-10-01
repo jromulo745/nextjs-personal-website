@@ -98,5 +98,17 @@
     "97": "Know how to access and configure the Group Policy Editor (gpedit.msc) and the Local Security Policy (secpol.msc).",
     "98": "An authenticator app uses a passcode to achieve two-step verification.",
     "99": "Protect email communications with encryption, digital signatures, secure ports, VPNs, and, especially, updates, and user education.",
-    "100": "It’s important to prevent spam email. Some methods include using spam filters, strong passwords, allow and deny lists, and user education!"
+    "100": "It’s important to prevent spam email. Some methods include using spam filters, strong passwords, allow and deny lists, and user education!",
+    "101": "Objective 2.2 concentrates on the following: protocols and encryption (WPA2, WPA3, TKIP, and AES) and authentication (RADIUS, TACACS+, Kerberos).",
+    "102": "Know the differences between WPA2, WPA3, TKIP, and AES.",
+    "103": "RADIUS servers can be used to provide secure SSO access for Wi-Fi and network resources.",
+    "104": "Know how to connect a wireless client to a RADIUS server using WPA2-Enterprise and port 1812.",
+    "105": "Note: 802.1X is an IEEE standard that defines port-based network access control (PNAC). Not to be confused with 802.11x WLAN standards, 802.1X is an authentication technology used to connect hosts to a LAN or WLAN. 802.1X allows you to apply a security control that ties physical ports to end-device MAC addresses and prevents additional devices from being connected to the network. It is a good way of implementing port security—better than simply setting up MAC address filtering.",
+    "106": "Fact: Whereas RADIUS uses UDP as its transport layer protocol, TACACS+ uses TCP as its transport layer protocol, and TCP is usually seen as a more reliable transport protocol than UDP (though each has its own unique set of advantages)",
+    "107": "RADIUS uses port 1812 and UDP. TACACS+ uses port 49 and TCP.",
+    "108": "Note: Authentication, authorization, and accounting are collectively known as AAA. RADIUS and TACACS+ servers are often referred to as AAA servers.",
+    "109": "Kerberos is an authentication protocol designed at MIT that enables computers to prove their identity to each other in a secure manner.",
+    "110": "A common implementation of Kerberos occurs when a user logs on to a Microsoft domain.",
+    "111": "Fact: Know this: Active Directory is the most commonly used directory services solution, but it’s not the only game in town. Kerberos can be used with any directory services solution, including the open source FreeIPA and its cousin Red Hat Identity Management. However, the A+ exam will most likely focus on Active Directory.",
+    "112": "Kerberos uses mutual authentication to provide security for clients attempting to connect to Active Directory domain controllers. It uses inbound port 88.",
 }
