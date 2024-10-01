@@ -110,5 +110,5 @@
     "109": "Kerberos is an authentication protocol designed at MIT that enables computers to prove their identity to each other in a secure manner.",
     "110": "A common implementation of Kerberos occurs when a user logs on to a Microsoft domain.",
     "111": "Fact: Know this: Active Directory is the most commonly used directory services solution, but it’s not the only game in town. Kerberos can be used with any directory services solution, including the open source FreeIPA and its cousin Red Hat Identity Management. However, the A+ exam will most likely focus on Active Directory.",
-    "112": "Kerberos uses mutual authentication to provide security for clients attempting to connect to Active Directory domain controllers. It uses inbound port 88.",
+    "112": "Kerberos uses mutual authentication to provide security for clients attempting to connect to Active Directory domain controllers. It uses inbound port 88."
 }
