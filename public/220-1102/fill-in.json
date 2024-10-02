@@ -110,6 +110,11 @@
   "What is the Linux command that fits the following description: A group of commands, including ip address, ip link, ip route, and so on. For example, typing the ip address command (ip a for short) shows the TCP/IP properties of all network connections. An example of this is shown after this table.": "ip",
   "What is the Linux command that fits the following description: Shows the TCP/IP properties of the wireless network connections and can be used to configure them.": "iwconfig",
   "What is the Linux command that fits the following description: Used to find information about DNS.": "dig",
-  "What is the Linux command that fits the following description: An analysis program that displays the running Linux processes and the CPU and RAM usage for each.": "top",
-  "What is the Linux command that fits the following description: A text editor that can be run from Terminal. Included in most versions of Linux.": "nano"
+  "What is the Linux command that fits the focamearllowing description: An analysis program that displays the running Linux processes and the CPU and RAM usage for each.": "top",
+  "What is the Linux command that fits the following description: A text editor that can be run from Terminal. Included in most versions of Linux.": "nano",
+  "RADIUS uses port ____ and UDP": "1812",
+  "RADIUS uses port 1812 and ___": "UDP",
+  "TACACS+ uses port __ and the TCP protocol.": "49",
+  "TACACS+ uses port 49 and the ___ protocol.": "TCP",
+  "Kerberos uses mutual authentication to provide security for clients attempting to connect to Active Directory domain controllers. It uses inbound port __.": "88"
 }
