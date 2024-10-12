@@ -104,7 +104,7 @@
   "What is the Linux command that fits the following description: Modifies the read and write permissions for a file or directory.": "chmod",
   "What is the Linux command that fits the following description: Changes ownership for files and directories.": "chown",
   "What is the Linux command that fits the following description: Displays information about a process/list running processes.": "ps",
-  "What is the Linux command that fits the following description: Lets you run the shell/Terminal session as another user (root or any other user). Originally short for superuser, it is also used to mean substitute user. An example of this is shown after this table.": "su",
+  "What is the Linux command that fits the following description: Lets you run the shell/Terminal session as another user (root or any other user). Originally short for superuser, it is also used to mean substitute user.": "su",
   "What is the Linux command that fits the following description: Allows a user to execute a single command as another user (such as a root). By default, a user with ____ privileges can do anything on the system.": "sudo",
   "What is the Linux command that fits the following description: Used to update a user’s password.": "passwd",
   "What is the Linux command that fits the following description: A group of commands, including ip address, ip link, ip route, and so on. For example, typing the ip address command (ip a for short) shows the TCP/IP properties of all network connections. An example of this is shown after this table.": "ip",
