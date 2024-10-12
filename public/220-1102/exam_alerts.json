@@ -122,5 +122,6 @@
     "121": "Note: Keep in mind that when you move data within a partition, the data isn’t actually relocated; instead, the pointer to the file or folder is modified.",
     "122": "To view files such as bootmgr, pagefile.sys, and hiberfil.sys, select the Show hidden files radio button and deselect the Hide protected operating system files checkbox.",
     "123": "Hidden/administrative shares can be identified by the $ on the end of the share name.",
-    "124": "Know the components necessary for BitLocker: a TPM or USB key."
+    "124": "Know the components necessary for BitLocker: a TPM or USB key.",
+    "125": "Side fact: A few different encryption technologies are used in Windows. For example, whenever you log on to a Windows network, that authentication is secured with the Kerberos protocol. As another example, when you want to encrypt one or more files or folders, Windows uses Encrypting File System (EFS), a component of NTFS. Follow these steps to encrypt a file in Windows:"
 }
