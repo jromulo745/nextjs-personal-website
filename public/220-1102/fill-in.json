@@ -110,7 +110,7 @@
   "What is the Linux command that fits the following description: A group of commands, including ip address, ip link, ip route, and so on. For example, typing the ip address command (ip a for short) shows the TCP/IP properties of all network connections. An example of this is shown after this table.": "ip",
   "What is the Linux command that fits the following description: Shows the TCP/IP properties of the wireless network connections and can be used to configure them.": "iwconfig",
   "What is the Linux command that fits the following description: Used to find information about DNS.": "dig",
-  "What is the Linux command that fits the following description: An analysis program that displays the running Linux processes and the CPU and RAM usage for each.": "top",
+  "What is the Linux command that fits the focamearllowing description: An analysis program that displays the running Linux processes and the CPU and RAM usage for each.": "top",
   "What is the Linux command that fits the following description: A text editor that can be run from Terminal. Included in most versions of Linux.": "nano",
   "RADIUS uses port ____ and UDP": "1812",
   "RADIUS uses port 1812 and ___": "UDP",
@@ -122,5 +122,7 @@
   "______ __ _______ is a broad term applied to many different types of network attacks that attempt to make computer resources unavailable. Generally, it is done to servers but can also be perpetrated against routers and other hosts. Examples of ______ __ _______ attacks include ping floods, Smurf attacks, SYN floods, Pings of Death, and fork bombs": "Denial of Service",
   "An attacker (or group of attackers) may make use of a ___________ ______ __ _______ attack. In this type of attack, a group of compromised systems attacks a single target, causing denial of service at that host.": "Distributed Denial of Service",
   "A DDoS attack often utilizes a ______ — which is a large group of computers, known as robots or simply bots.": "botnet",
-  "A _____________ attack uses a considerable set of precalculated encrypted passwords located in a lookup table.": "cryptanalysis"
+  "A _____________ attack uses a considerable set of precalculated encrypted passwords located in a lookup table.": "cryptanalysis",
+  "XSS attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.": "XSS",
+  "Within the context of cybersecurity, what does XSS stand for?": "Cross Site Scripting"
 }
