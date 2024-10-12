@@ -123,6 +123,7 @@
   "An attacker (or group of attackers) may make use of a ___________ ______ __ _______ attack. In this type of attack, a group of compromised systems attacks a single target, causing denial of service at that host.": "Distributed Denial of Service",
   "A DDoS attack often utilizes a ______ — which is a large group of computers, known as robots or simply bots.": "botnet",
   "A _____________ attack uses a considerable set of precalculated encrypted passwords located in a lookup table.": "cryptanalysis",
-  "XSS attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.": "XSS",
-  "Within the context of cybersecurity, what does XSS stand for?": "Cross Site Scripting"
+  "___ attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. ___ attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.": "XSS",
+  "Within the context of cybersecurity, what does XSS stand for?": "Cross Site Scripting",
+  "A ___ _________ attack consists of insertion or “injection” of a SQL query via the input data from the client to the application.": "SQL Injection"
 }
