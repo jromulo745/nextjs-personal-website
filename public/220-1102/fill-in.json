@@ -116,6 +116,7 @@
   "RADIUS uses port 1812 and ___": "UDP",
   "TACACS+ uses port __ and the TCP protocol.": "49",
   "TACACS+ uses port 49 and the ___ protocol.": "TCP",
+  "Note: ______________, _____________, and __________ are collectively known as AAA. RADIUS and TACACS+ servers are often referred to as AAA servers.": "Authentication Authorization Accounting",
   "Kerberos uses mutual authentication to provide security for clients attempting to connect to Active Directory domain controllers. It uses inbound port __.": "88",
   "A ______ is a group of compromised computers that are controlled by a main computer (somewhere) that directs them to attack particular servers and routers on the Internet.": "botnet",
   "In a ________ attack, an attacker masquerades as another person by falsifying information.": "spoofing",
