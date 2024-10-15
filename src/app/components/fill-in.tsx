@@ -65,7 +65,7 @@ export default function FillIn({file_path}: {file_path: string}) {
       setTimeout(() => alert("Correct"), 10);
     } else {
       (document.getElementById("answer") as HTMLInputElement).style.backgroundColor = 'red';
-      setTimeout(() => alert("Not quite, the correct answer is \"" + answers[counter] + "\"\nYou entered \"" + answer + "\" dumbass"), 10);
+      setTimeout(() => alert("Not quite, the correct answer is \"" + answers[counter] + "\"\nYou entered \"" + answer + "\" dumbass."), 10);
       console.log('correct answer: ' + answers[counter]);
     }
 
