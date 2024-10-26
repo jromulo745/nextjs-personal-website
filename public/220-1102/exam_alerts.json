@@ -127,5 +127,6 @@
     "126": "Objective 2.6 concentrates on data-at-rest encryption, password best practices, end-user best practices, account management, changing the default administrator’s user account/password, and disabling AutoRun/AutoPlay.",
     "127": "Understand what is required for a strong complex password.",
     "128": "Know how to enable/disable accounts, reset passwords, and modify password policy!",
-    "129": "Know how to disable AutoPlay in Windows Settings and the Group Policy Editor."
+    "129": "The difference between locking and logging out is that a locked computer leaves all the session’s applications and files open; logging out closes all open applications and files.",
+    "130": "Know how to disable AutoPlay in Windows Settings and the Group Policy Editor."
 }
