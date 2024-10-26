@@ -123,5 +123,9 @@
     "122": "To view files such as bootmgr, pagefile.sys, and hiberfil.sys, select the Show hidden files radio button and deselect the Hide protected operating system files checkbox.",
     "123": "Hidden/administrative shares can be identified by the $ on the end of the share name.",
     "124": "Know the components necessary for BitLocker: a TPM or USB key.",
-    "125": "Side fact: A few different encryption technologies are used in Windows. For example, whenever you log on to a Windows network, that authentication is secured with the Kerberos protocol. As another example, when you want to encrypt one or more files or folders, Windows uses Encrypting File System (EFS), a component of NTFS. Follow these steps to encrypt a file in Windows:"
+    "125": "Side fact: A few different encryption technologies are used in Windows. For example, whenever you log on to a Windows network, that authentication is secured with the Kerberos protocol. As another example, when you want to encrypt one or more files or folders, Windows uses Encrypting File System (EFS), a component of NTFS. Follow these steps to encrypt a file in Windows:",
+    "126": "Objective 2.6 concentrates on data-at-rest encryption, password best practices, end-user best practices, account management, changing the default administrator’s user account/password, and disabling AutoRun/AutoPlay.",
+    "127": "Understand what is required for a strong complex password.",
+    "128": "Know how to enable/disable accounts, reset passwords, and modify password policy!",
+    "129": "Know how to disable AutoPlay in Windows Settings and the Group Policy Editor."
 }
