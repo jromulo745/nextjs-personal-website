@@ -120,7 +120,7 @@
   "Kerberos uses mutual authentication to provide security for clients attempting to connect to Active Directory domain controllers. It uses inbound port __.": "88",
   "A ______ is a group of compromised computers that are controlled by a main computer (somewhere) that directs them to attack particular servers and routers on the Internet.": "botnet",
   "In a ________ attack, an attacker masquerades as another person by falsifying information.": "spoofing",
-  "______ __ _______ is a broad term applied to many different types of network attacks that attempt to make computer resources unavailable. Generally, it is done to servers but can also be perpetrated against routers and other hosts. Examples of ______ __ _______ attacks include ping floods, Smurf attacks, SYN floods, Pings of Death, and fork bombs": "Denial of Service",
+  "______ __ _______ is a broad term applied to many different types of network attacks that attempt to make computer resources unavailable. Generally, it is done to servers but can also be perpetrated against routers and other hosts. Examples of ______ __ _______ attacks include ping floods, Smurf attacks, SYN floods, Pings of Death, and fork bombs.": "Denial of Service",
   "An attacker (or group of attackers) may make use of a ___________ ______ __ _______ attack. In this type of attack, a group of compromised systems attacks a single target, causing denial of service at that host.": "Distributed Denial of Service",
   "A DDoS attack often utilizes a ______ — which is a large group of computers, known as robots or simply bots.": "botnet",
   "A _____________ attack uses a considerable set of precalculated encrypted passwords located in a lookup table.": "cryptanalysis",
