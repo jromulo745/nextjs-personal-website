@@ -104,7 +104,7 @@
     "103": "RADIUS servers can be used to provide secure SSO access for Wi-Fi and network resources.",
     "104": "Know how to connect a wireless client to a RADIUS server using WPA2-Enterprise and port 1812.",
     "105": "Note: 802.1X is an IEEE standard that defines port-based network access control (PNAC). Not to be confused with 802.11x WLAN standards, 802.1X is an authentication technology used to connect hosts to a LAN or WLAN. 802.1X allows you to apply a security control that ties physical ports to end-device MAC addresses and prevents additional devices from being connected to the network. It is a good way of implementing port security—better than simply setting up MAC address filtering.",
-    "106": "Fact: Whereas RADIUS uses UDP as its transport layer protocol, TACACS+ uses TCP as its transport layer protocol, and TCP is usually seen as a more reliable transport protocol than UDP (though each has its own unique set of advantages)",
+    "106": "Fact: Whereas RADIUS uses UDP as its transport layer protocol, TACACS+ uses TCP as its transport layer protocol, and TCP is usually seen as a more reliable transport protocol than UDP (though each has its own unique set of advantages).",
     "107": "RADIUS uses port 1812 and UDP. TACACS+ uses port 49 and TCP.",
     "108": "Note: Authentication, authorization, and accounting are collectively known as AAA. RADIUS and TACACS+ servers are often referred to as AAA servers.",
     "109": "Kerberos is an authentication protocol designed at MIT that enables computers to prove their identity to each other in a secure manner.",
