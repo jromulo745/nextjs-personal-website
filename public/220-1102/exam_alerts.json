@@ -128,5 +128,13 @@
     "127": "Understand what is required for a strong complex password.",
     "128": "Know how to enable/disable accounts, reset passwords, and modify password policy!",
     "129": "The difference between locking and logging out is that a locked computer leaves all the session’s applications and files open; logging out closes all open applications and files.",
-    "130": "Know how to disable AutoPlay in Windows Settings and the Group Policy Editor."
+    "130": "Know how to disable AutoPlay in Windows Settings and the Group Policy Editor.",
+    "131": "Objective 2.7 focuses on screen locks, remote wipes, locator applications, OS updates, device encryption, remote backup applications, restrictions on failed login attempts, antivirus/anti-malware, firewalls, policies and procedures, and the Internet of Things (IoT).",
+    "132": "Know how to configure a screen lock using fingerprint, face, swipe, pattern, and password locks. Also know how to disable visible passwords.",
+    "133": "Understand the consequences of entering an incorrect passcode or other authentication information too many times.",
+    "134": "Know what locator/tracker applications are and how remote wipes are used to erase confidential data in the event that a device is stolen.",
+    "135": "Know how to check for, and perform, Android and iOS updates.",
+    "136": "Understand the terms jailbreaking and rooting.",
+    "137": "Secure IoT devices! Know how many devices you actually have, use network segmentation to reduce the attack surface, always keep firmware up to date, and, in enterprise environments, monitor IoT devices at all times using real-time monitoring and alerting.",
+    "138": ""
 }
