@@ -135,6 +135,5 @@
     "134": "Know what locator/tracker applications are and how remote wipes are used to erase confidential data in the event that a device is stolen.",
     "135": "Know how to check for, and perform, Android and iOS updates.",
     "136": "Understand the terms jailbreaking and rooting.",
-    "137": "Secure IoT devices! Know how many devices you actually have, use network segmentation to reduce the attack surface, always keep firmware up to date, and, in enterprise environments, monitor IoT devices at all times using real-time monitoring and alerting.",
-    "138": ""
+    "137": "Secure IoT devices! Know how many devices you actually have, use network segmentation to reduce the attack surface, always keep firmware up to date, and, in enterprise environments, monitor IoT devices at all times using real-time monitoring and alerting."
 }
