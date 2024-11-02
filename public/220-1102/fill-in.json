@@ -126,5 +126,7 @@
   "A _____________ attack uses a considerable set of precalculated encrypted passwords located in a lookup table.": "cryptanalysis",
   "___ attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. ___ attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.": "XSS",
   "Within the context of cybersecurity, what does XSS stand for?": "Cross Site Scripting",
-  "A ___ _________ attack consists of insertion or “injection” of a SQL query via the input data from the client to the application.": "SQL Injection"
+  "A ___ _________ attack consists of insertion or “injection” of a SQL query via the input data from the client to the application.": "SQL Injection",
+  "As a reminder, _________ is the original name for folder. The more accurate names are _________ when working in any command line and folder when working in the GUI, but the two terms are sometimes used interchangeably.": "directory",
+  "Another way to flush the DNS cache is to issue the command _____ ___ __ in PowerShell. But beware: This completely resets the TCP/IP connection for the network adapter.": "netsh int ip"
 }
