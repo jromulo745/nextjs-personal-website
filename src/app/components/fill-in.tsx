@@ -8,8 +8,14 @@ export default function FillIn({file_path}: {file_path: string}) {
   // variables //
   const jsonQuestions: string[] = [];
   const jsonAnswers: string[] = [];
+  //------------------------------------------------------------------
+  const randomizedJsonQuestions: string[] = [];
+  const randomizedJsonAnswers: string[] = [];
+  //------------------------------------------------------------------
   const [questions, setQuestions] = useState([] as string[]);
   const [answers, setAnswers] = useState([] as string[]);
+  //------------------------------------------------------------------
+  const used_random_numbers: number[] = [];
   //------------------------------------------------------------------
   const [listLength, setLength] = useState(0);
   //------------------------------------------------------------------
@@ -32,9 +38,37 @@ export default function FillIn({file_path}: {file_path: string}) {
       jsonQuestions.push(i);
       jsonAnswers.push(resJSON[i]);
     }
+
+    //------------------------------------------------------------------
+    let random_index;
+    // console.log('here: ' + jsonQuestions.length);
+    for (let x = 0; x < jsonQuestions.length; x++) {
+      random_index = Math.floor(Math.random() * jsonQuestions.length);
+      if (random_index in used_random_numbers) {
+        while (true) {
+          random_index = Math.floor(Math.random() * jsonQuestions.length);
+          if (random_index !in used_random_numbers) {
+            used_random_numbers.push(random_index);
+            break;
+          }
+        }
+      }
+      else {
+        used_random_numbers.push(random_index);
+      }
+    }    
+
+    for (let x = 0; x < used_random_numbers.length; x++){
+      randomizedJsonQuestions.push(jsonQuestions[used_random_numbers[x]]);
+      randomizedJsonAnswers.push(jsonAnswers[used_random_numbers[x]]);
+    }
+    // console.log(used_random_numbers);
+    //------------------------------------------------------------------
     
-    setQuestions(jsonQuestions);
-    setAnswers(jsonAnswers);
+    // setQuestions(jsonQuestions);
+    // setAnswers(jsonAnswers);
+    setQuestions(randomizedJsonQuestions);
+    setAnswers(randomizedJsonAnswers);
     setLength(jsonQuestions.length);
   }
 
