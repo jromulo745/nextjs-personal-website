@@ -66,7 +66,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
       }
     }
 
-    console.log(used_random_indices);
+    // console.log(used_random_indices);
 
     // load explanations data //
     const response = await fetch(file_path_2);
@@ -96,7 +96,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
 
   function startExam() {
     if (examStarted) { // 'Next' button
-      console.log((counter + 1) + " | "  + listLength);
+      // console.log((counter + 1) + " | "  + listLength);
       if ((counter + 1) === listLength) {
         setChoiceDisabled(true);
         setNextButtonDisabled(true);
@@ -129,7 +129,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
   // -------------------------------------------------
   function showExplanation() {
     alert(explanations[counter]);
-    console.log('dude:' + explanations);
+    // console.log('dude:' + explanations);
   }
   // -------------------------------------------------
 
