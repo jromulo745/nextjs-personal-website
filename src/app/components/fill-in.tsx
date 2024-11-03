@@ -41,13 +41,12 @@ export default function FillIn({file_path}: {file_path: string}) {
 
     //------------------------------------------------------------------
     let random_index;
-    // console.log('here: ' + jsonQuestions.length);
     for (let x = 0; x < jsonQuestions.length; x++) {
       random_index = Math.floor(Math.random() * jsonQuestions.length);
-      if (random_index in used_random_numbers) {
+      if (used_random_numbers.includes(random_index)) {
         while (true) {
           random_index = Math.floor(Math.random() * jsonQuestions.length);
-          if (random_index !in used_random_numbers) {
+          if (!(used_random_numbers.includes(random_index))) {
             used_random_numbers.push(random_index);
             break;
           }
@@ -57,6 +56,18 @@ export default function FillIn({file_path}: {file_path: string}) {
         used_random_numbers.push(random_index);
       }
     }    
+
+    //------------------------------------------------------------
+    //debugging duplicates
+    console.log(used_random_numbers);
+    for (let i = 0; i < used_random_numbers.length; i++) {
+      for (let y = 0; y < used_random_numbers.length; y++) {
+        if ((y != i) && (used_random_numbers[y] == used_random_numbers[i])) {
+          console.log('duplicate found: number #' + y + '. Indices #' + y + ' and #' + i);
+        }
+      }
+    }
+    //------------------------------------------------------------
 
     for (let x = 0; x < used_random_numbers.length; x++){
       randomizedJsonQuestions.push(jsonQuestions[used_random_numbers[x]]);
@@ -89,7 +100,7 @@ export default function FillIn({file_path}: {file_path: string}) {
   }
 
   function checkAnswer(e: any) {
-    
+
     e.preventDefault(); // prevent the form from leaving after hitting 'submit'
 
     const answer = (document.getElementById("answer") as HTMLInputElement).value;
