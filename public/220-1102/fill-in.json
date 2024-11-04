@@ -128,5 +128,7 @@
   "Within the context of cybersecurity, what does XSS stand for?": "Cross Site Scripting",
   "A ___ _________ attack consists of insertion or “injection” of a SQL query via the input data from the client to the application.": "SQL Injection",
   "As a reminder, _________ is the original name for folder. The more accurate names are _________ when working in any command line and folder when working in the GUI, but the two terms are sometimes used interchangeably.": "directory",
-  "Another way to flush the DNS cache is to issue the command _____ ___ __ in PowerShell. But beware: This completely resets the TCP/IP connection for the network adapter.": "netsh int ip"
+  "Another way to flush the DNS cache is to issue the command _____ ___ __ in PowerShell. But beware: This completely resets the TCP/IP connection for the network adapter.": "netsh int ip",
+  "________ is the removal of data from a drive that is to be repurposed and used again within the organization. The diskpart utility can be used to clear the drive, but it is not appropriate for drive disposal.": "Clearing",
+  "_______ a drive, or wiping its data, is recommended for sensitive data and drives that will leave the organization. It can be done in two ways: with the Secure Erase option (or a similar technique) or by degaussing the drive.": "Purging"
 }
