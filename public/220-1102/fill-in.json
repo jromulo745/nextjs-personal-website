@@ -75,7 +75,7 @@
   "Enter the copy command that verifies that new files are written correctly.": "copy /v",
   "Enter that suppresses prompting to confirm you want to overwrite an existing destination file.": "copy /y",
   "_______ ___________ is the number of pixels (or picture elements) on a screen. It is measured horizontally by vertically (HxV).": "Display Resolution",
-  "_______ ____is the number of times a display is “painted” per second.": "Refresh rate",
+  "_______ ____ is the number of times a display is “painted” per second.": "Refresh rate",
   "_____ _____ in Windows refers to the dynamic range of color intensity and luminance and how colors are represented on the display.": "Color space",
   "Enter the PowerShell command (when in elevated mode) to have Windows convert the Windows Update log files into a readable manner (which will be sent to your desktop).": "Get-WindowsUpdateLog",
   "What protocol does ping use?": "ICMP",
