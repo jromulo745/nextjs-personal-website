@@ -137,5 +137,11 @@
     "136": "Understand the terms jailbreaking and rooting.",
     "137": "Secure IoT devices! Know how many devices you actually have, use network segmentation to reduce the attack surface, always keep firmware up to date, and, in enterprise environments, monitor IoT devices at all times using real-time monitoring and alerting.",
     "138": "Objective 2.8 focuses on physical destruction, recycling and repurposing best practices, and outsourcing concepts.",
-    "139": "Know the differences between clearing, purging, and destruction."
+    "139": "Know the differences between clearing, purging, and destruction.",
+    "140": "Objective 2.9 concentrates on home router settings, wireless-specific settings, and firewall settings.",
+    "141": "Remember to change the admin password first before you do anything else!",
+    "142": "Strategically place your access points and know how to adjust radio power levels and AP antennas.",
+    "143": "MAC filtering and IP filtering can be used to specify which computers are allowed or denied to the wireless network (and wired network).",
+    "144": "Port forwarding is also referred to as destination NAT (DNAT).",
+    "145": "Disable any physical ports that are not in use!"
 }
