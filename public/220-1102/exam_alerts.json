@@ -143,5 +143,14 @@
     "142": "Strategically place your access points and know how to adjust radio power levels and AP antennas.",
     "143": "MAC filtering and IP filtering can be used to specify which computers are allowed or denied to the wireless network (and wired network).",
     "144": "Port forwarding is also referred to as destination NAT (DNAT).",
-    "145": "Disable any physical ports that are not in use!"
+    "145": "Disable any physical ports that are not in use!",
+    "146": "Objective 2.10 focuses on browser download/installation, extensions and plug-ins, password managers, secure connections/sites and valid certificates, and settings.",
+    "147": "To change the default web browser (or other default programs) in Windows, go to Windows Settings > Apps > Default Apps.",
+    "148": "Note: Firefox has been the standard in privacy for a long time. But you might also be interested in the Tor Browser or Brave, as well as search engines such as DuckDuckGo or Startpage.",
+    "149": "Know how to access settings in Edge and Chrome.",
+    "150": "Know how to disable the password manager in Edge and in Chrome.",
+    "151": "To learn more about cryptography, see https://www.nist.gov/cryptography.",
+    "152": "Know how to check the TLS version in Edge and in Chrome.",
+    "153": "Note: For a secure Internet browsing experience, you might also implement a proxy server or a virtual private network (VPN).",
+    "154": "Know how to initiate private browsing mode in Edge and in Chrome."
 }
