@@ -73,7 +73,7 @@
   "The ____ __ ______ ______ on Windows 10 allows a user to turn on a variety of tools: the magnifier to view small objects more easily, the narrator for voice prompts while working in Windows, the onscreen keyboard, and high contrast.": "Ease of Access Center",
   "Enter the Windows command to view the name of the device.": "hostname",
   "Enter the copy command that verifies that new files are written correctly.": "copy /v",
-  "Enter that suppresses prompting to confirm you want to overwrite an existing destination file.": "copy /y",
+  "Enter the copy command that suppresses prompting to confirm you want to overwrite an existing destination file.": "copy /y",
   "_______ ___________ is the number of pixels (or picture elements) on a screen. It is measured horizontally by vertically (HxV).": "Display Resolution",
   "_______ ____ is the number of times a display is “painted” per second.": "Refresh rate",
   "_____ _____ in Windows refers to the dynamic range of color intensity and luminance and how colors are represented on the display.": "Color space",
