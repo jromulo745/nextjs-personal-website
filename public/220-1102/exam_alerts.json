@@ -152,5 +152,11 @@
     "151": "To learn more about cryptography, see https://www.nist.gov/cryptography.",
     "152": "Know how to check the TLS version in Edge and in Chrome.",
     "153": "Note: For a secure Internet browsing experience, you might also implement a proxy server or a virtual private network (VPN).",
-    "154": "Know how to initiate private browsing mode in Edge and in Chrome."
+    "154": "Know how to initiate private browsing mode in Edge and in Chrome.",
+    "155": "Objective 3.1 concentrates on common symptoms and common troubleshooting steps in Windows.",
+    "156": "Memorize the different Windows RE options.",
+    "157": "Know the various settings under Windows Startup Settings (such as Safe Mode) and know what they do.",
+    "158": "Understand how to enable and disable System Restore, how to create restore points, and how to restore a system to an earlier point in time.",
+    "159": "Know how stop errors occur and how memory dumps function.",
+    "160": "Know how to get to the troubleshooters in Windows (Settings > Update & Security > Troubleshoot > Additional troubleshooters) and know the various troubleshooting tools, such as those for Internet connections, playing audio, printers, and so on."
 }
