@@ -158,5 +158,9 @@
     "157": "Know the various settings under Windows Startup Settings (such as Safe Mode) and know what they do.",
     "158": "Understand how to enable and disable System Restore, how to create restore points, and how to restore a system to an earlier point in time.",
     "159": "Know how stop errors occur and how memory dumps function.",
-    "160": "Know how to get to the troubleshooters in Windows (Settings > Update & Security > Troubleshoot > Additional troubleshooters) and know the various troubleshooting tools, such as those for Internet connections, playing audio, printers, and so on."
+    "160": "Know how to get to the troubleshooters in Windows (Settings > Update & Security > Troubleshoot > Additional troubleshooters) and know the various troubleshooting tools, such as those for Internet connections, playing audio, printers, and so on.",
+    "161": "Objective 3.2 focuses on common PC security issues and symptoms of malware.",
+    "162": "Know the CompTIA A+ malware removal procedure.",
+    "163": "Remember that the remediate step for removing malware includes using scanning and removal techniques in Safe Mode or from a preinstallation environment such as WinRE.",
+    "164": "Know the common symptoms of malware and how to troubleshoot and resolve them."
 }
