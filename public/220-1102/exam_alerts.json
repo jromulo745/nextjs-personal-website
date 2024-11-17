@@ -162,5 +162,11 @@
     "161": "Objective 3.2 focuses on common PC security issues and symptoms of malware.",
     "162": "Know the CompTIA A+ malware removal procedure.",
     "163": "Remember that the remediate step for removing malware includes using scanning and removal techniques in Safe Mode or from a preinstallation environment such as WinRE.",
-    "164": "Know the common symptoms of malware and how to troubleshoot and resolve them."
+    "164": "Know the common symptoms of malware and how to troubleshoot and resolve them.",
+    "165": "Objective 3.4 focuses on the following common symptoms of mobile OS and application issues: application fails to launch, application fails to close/crashes, application fails to update, slow to respond, OS fails to update, battery life issues, randomly reboots, connectivity issues, and screen does not autorotate.",
+    "166": "Know your Wi-Fi troubleshooting techniques!",
+    "167": "Know your Bluetooth troubleshooting techniques!",
+    "168": "When troubleshooting email connections on mobile devices, double-check all settings, such as username, password, server name, and port number.",
+    "169": "If individual emails (or attachments) cannot be decrypted, then there is probably a certificate issue.",
+    "170": "Understand how to stop apps on Android and Apple devices."
 }
