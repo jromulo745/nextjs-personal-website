@@ -169,5 +169,8 @@
     "168": "When troubleshooting email connections on mobile devices, double-check all settings, such as username, password, server name, and port number.",
     "169": "If individual emails (or attachments) cannot be decrypted, then there is probably a certificate issue.",
     "170": "Understand how to stop apps on Android and Apple devices.",
-    "171": "Warning: All data will be wiped when a hard reset is initiated!"
+    "171": "Warning: All data will be wiped when a hard reset is initiated!",
+    "172": "Objective 3.5 concentrates on security concerns; Android package (APK) source, developer mode, root access/jailbreaking, bootleg/malicious application, and common symptoms; and high network traffic, sluggish response time, data-usage limit notifications, limited Internet connectivity, no Internet connectivity, high number of ads, fake security warnings, unexpected application behavior, and leaked personal files/data.",
+    "173": "Periodically view log files to ascertain if any security issues have occurred within a mobile device’s OS or applications.",
+    "174": "Know how to prevent rooting and jailbreaking."
 }
