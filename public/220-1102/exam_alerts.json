@@ -172,5 +172,10 @@
     "171": "Warning: All data will be wiped when a hard reset is initiated!",
     "172": "Objective 3.5 concentrates on security concerns; Android package (APK) source, developer mode, root access/jailbreaking, bootleg/malicious application, and common symptoms; and high network traffic, sluggish response time, data-usage limit notifications, limited Internet connectivity, no Internet connectivity, high number of ads, fake security warnings, unexpected application behavior, and leaked personal files/data.",
     "173": "Periodically view log files to ascertain if any security issues have occurred within a mobile device’s OS or applications.",
-    "174": "Know how to prevent rooting and jailbreaking."
+    "174": "Know how to prevent rooting and jailbreaking.",
+    "175": "Objective 4.1 concentrates on ticketing systems, asset management, types of documents, and knowledge bases/articles.",
+    "176": "Network topology diagrams identify network components and how they are physically and/or logically connected.",
+    "177": "Know how to research knowledge bases! If you can research within them, you can research pretty much anywhere.",
+    "178": "When working on a ticket, gather detailed information on the problem, use clear and concise verbal and written communications, and track the status of the problem from beginning to end.",
+    "179": "Asset tags and barcodes are used by inventory management systems and software to identify and keep records of company assets."
 }
