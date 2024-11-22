@@ -182,6 +182,5 @@
     "181": "Know the change management terms and definitions in Table 58.1 for the exam.",
     "182": "Objective 4.3 concentrates on backup and recovery, backup testing, and backup rotation schemes.",
     "183": "Know how to use File History to back up data in Windows.",
-    "184": "Perform backup testing to ensure that backups are actually being performed and that data can actually be restored!",
-    "185": ""
+    "184": "Perform backup testing to ensure that backups are actually being performed and that data can actually be restored!"
 }
