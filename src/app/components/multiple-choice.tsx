@@ -67,8 +67,6 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
       }
     }
 
-    // console.log(used_random_indices);
-
     // load explanations data //
     const response = await fetch(file_path_2);
     const responseJSON = await response.json();
