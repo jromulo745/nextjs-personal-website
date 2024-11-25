@@ -37,6 +37,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
   const [counter, updateCounter] = useState(0);
   //------------------------------------------------------------------
 
+  // Random Number Generator
   function random_number_generator(min: number, max: number): number {
     return Math.random() * (max - min) + min;
   }
