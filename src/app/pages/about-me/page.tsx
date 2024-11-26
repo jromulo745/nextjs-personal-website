@@ -36,7 +36,7 @@ export default function AboutMePage() {
 
           <h2 style={{textAlign: 'center', marginTop: '30px', fontStyle: 'italic'}}>Acuren Inspection</h2>
           <ul style={{textAlign: 'left', margin: '10px 50px'}}>
-            <li style={{listStyleType: 'disc'}}>Information Technology Help Desk Technician</li>
+            <li style={{listStyleType: 'disc'}}>Information Technology Help Desk Analyst</li>
             <ul style={{listStyleType: 'circle'}}>
               <li>Troubleshoot issues related to computer software, hardware, networking, and phone systems and resolve within 
                   established SLA’s.</li>
