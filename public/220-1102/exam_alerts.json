@@ -182,5 +182,7 @@
     "181": "Know the change management terms and definitions in Table 58.1 for the exam.",
     "182": "Objective 4.3 concentrates on backup and recovery, backup testing, and backup rotation schemes.",
     "183": "Know how to use File History to back up data in Windows.",
-    "184": "Perform backup testing to ensure that backups are actually being performed and that data can actually be restored!"
+    "184": "Perform backup testing to ensure that backups are actually being performed and that data can actually be restored!",
+    "185": "Objective 4.4 concentrates on the following: electrostatic discharge (ESD) straps, ESD mats, equipment grounding, proper power handling, proper component handling and storage, antistatic bags, compliance with government regulations, and personal safety.",
+    "186": "Remember the main ways to avoid ESD: wearing an antistatic strap, using an anti-static mat, self-grounding (touching the computer case), and using antistatic bags."
 }
