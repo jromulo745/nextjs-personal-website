@@ -133,5 +133,7 @@
   "_______ a drive, or wiping its data, is recommended for sensitive data and drives that will leave the organization. It can be done in two ways: with the Secure Erase option (or a similar technique) or by degaussing the drive.": "Purging",
   "Enter the address bar command (Edge) to get to Settings.": "edge://settings",
   "Enter the address bar command (Chrome) to get to Settings.": "chrome://settings",
-  "Enter the address bar command (Firefox) to get to Preferences.": "about:preferences"
+  "Enter the address bar command (Firefox) to get to Preferences.": "about:preferences",
+  "___ occurs when two objects of different voltages come into contact with each other.": "ESD",
+  "What does ESD stand for?": "electrostatic discharge"
 }
