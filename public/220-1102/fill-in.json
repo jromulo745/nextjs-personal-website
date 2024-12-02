@@ -135,5 +135,10 @@
   "Enter the address bar command (Chrome) to get to Settings.": "chrome://settings",
   "Enter the address bar command (Firefox) to get to Preferences.": "about:preferences",
   "___ occurs when two objects of different voltages come into contact with each other.": "ESD",
-  "What does ESD stand for?": "electrostatic discharge"
+  "What does ESD stand for?": "electrostatic discharge",
+  "A power _____ is an unexpected increase in voltage": "surge",
+  "An _____-_______ event is a drop in voltage that can cause computers to shut off": "under-voltage",
+  "A _____ _______ is a total loss of power for a prolonged time.": "power failure",
+  "To protect against surges and spikes, use a _____ _________!": "surge protector",
+  "A ___ combines the functionality of a surge suppressor with a battery backup. A ___ protects a computer not only from surges and spikes but also from sags, under-voltage events, and power failures.": "UPS"
 }
