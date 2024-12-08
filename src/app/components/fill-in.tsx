@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState, useRef, use } from "react";
-import SquareAnimations from "./square-animations";
 
 export default function FillIn({file_path}: {file_path: string}) {
 
