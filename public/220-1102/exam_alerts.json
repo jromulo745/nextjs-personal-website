@@ -193,5 +193,13 @@
     "192": "To protect against surges and spikes, use a surge protector!",
     "193": "Use a UPS/battery backup to protect your computer from power outages! It can keep your computer running long enough to save your work and properly shut down the computer, if necessary.",
     "194": "Do not connect laser printers to UPS devices.",
-    "195": "For custom workstations, make sure that computers, monitors, and powered USB hubs are all plugged into the UPS."
+    "195": "For custom workstations, make sure that computers, monitors, and powered USB hubs are all plugged into the UPS.",
+    "196": "Objective 4.6 concentrates on the following: incident response, licensing/DRM/ EULA, and regulated data.",
+    "197": "As a first responder, you identify an incident, report through the proper channels and escalate if necessary, ensure data/device preservation, and document everything!",
+    "198": "Understanding the Importance of Prohibited Content/Activity and Privacy, Licensing, and Policy Concepts",
+    "199": "EULA is a licensing agreement between a software vendor and an end user. DRM restricts usage or proliferation of copyrighted software and products.",
+    "200": "Know the difference between open source and commercial licenses. And know the difference between personal licenses and corporate-use licenses.",
+    "201": "Know the types of regulated data and related concepts, including PII, PHI, PCI, and GDPR.",
+    "202": "Objective 4.7 focuses on the following: professional appearance and attire; using proper language and avoiding jargon, acronyms, and slang, when applicable; maintaining a positive attitude/project confidence; actively listening; taking notes; avoiding interrupting the customer; being culturally sensitive; being on time (and, if late, contact the customer); avoiding distractions; dealing with difficult customers or situations; setting and meeting expectations/time lines and communicating status with the customer; and dealing appropriately with customers’ confidential and private materials.",
+    "203": "Be professional, punctual, and positive and practice all the other skills mentioned in this section. They are important for the exam—and crucial in the computer field."
 }
