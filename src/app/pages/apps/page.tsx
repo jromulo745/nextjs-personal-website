@@ -34,10 +34,18 @@ export default function AppPage() {
       </div>
       {/* ----------------------------------------------------------------- */}
       <div className="flex justify-center">
-        <div className="backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mb-20 p-10 max-w-3xl eleven-o-two">
+        <div className="backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mb-10 p-10 max-w-3xl eleven-o-two">
           <h1 className="text-3xl" style={{color: 'grey'}}>THM Testing</h1>
           <p className="mt-5 mb-5">Click the start button to open a cluster of testing components used as a study aid to learn more about cybersecurity.</p>
           <Link className="border rounded-2xl p-2.5 hover:shadow-lg" style={{color: '#6E717A', borderColor: 'grey'}} href="/pages/apps/thm">Start</Link>
+        </div>
+      </div>
+      {/* ----------------------------------------------------------------- */}
+      <div className="flex justify-center">
+        <div className="backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mb-20 p-10 max-w-3xl eleven-o-two">
+          <h1 className="text-3xl" style={{color: 'grey'}}>General IT</h1>
+          <p className="mt-5 mb-5">Click the start button to open a cluster of testing components used as a study aid to learn more about IT (general).</p>
+          <Link className="border rounded-2xl p-2.5 hover:shadow-lg" style={{color: '#6E717A', borderColor: 'grey'}} href="/pages/apps/general-IT">Start</Link>
         </div>
       </div>
       {/* ----------------------------------------------------------------- */}
