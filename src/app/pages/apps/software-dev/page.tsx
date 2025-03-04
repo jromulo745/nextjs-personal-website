@@ -10,9 +10,9 @@ export default function Page() {
     <div>
       <Navbar />
       {/* ---------------------------------------------------------- */}
-      <FillIn file_path={"/general-IT/fill-in.json"} />
+      <FillIn file_path={"/software-dev/fill-in.json"} />
       {/* ---------------------------------------------------------- */}
-      <ExamAlerts file_path={"/general-IT/exam_alerts.json"}></ExamAlerts>
+      <ExamAlerts file_path={"/software-dev/exam_alerts.json"}></ExamAlerts>
       <br></br>
       <br></br>
       <br></br>
