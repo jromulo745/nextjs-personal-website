@@ -1,3 +1,5 @@
 {
-  "": ""  
+  "The git ____ command is actually a combination of two other commands, git fetch followed by git merge.": "pull",  
+  "The git pull command is actually a combination of two other commands, git _____ followed by git merge.": "fetch",  
+  "The git pull command is actually a combination of two other commands, git fetch followed by git _____.": "pull"  
 }
