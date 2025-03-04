@@ -41,7 +41,7 @@ export default function ExamAlerts({file_path}: {file_path: string}) {
       console.log('here ' + counter + ' ' + listLength);
       setNextButtonDisabled(true);
     }
-    else if (examStarted) { // 'Next' button
+    if (examStarted) { // 'Next' button
       updateCounter(counter + 1);
     } else { // 'Start' Button
       setBeginTruthy(true);
