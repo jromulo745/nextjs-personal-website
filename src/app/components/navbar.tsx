@@ -7,7 +7,7 @@ import '../../app/globals.css';
 export default function Navbar() {
   return (
     <div>
-      <div className='bg-transparent pb-6 pt-6 shadow-lg text-white'>
+      <div className='pb-6 pt-6 shadow-lg text-white fixed w-full top-0 left-0' style={{backgroundColor: "#a6c1ee", zIndex: '1'}}>
         <div className='flex justify-center'>
           <ul className='navbar flex gap-8'>
             <li>
@@ -33,7 +33,7 @@ export default function Navbar() {
       </div>
       {/* --------------------------------- */}
       <div>
-        <h1 className={`${styles.curly} ${'header-name'}`} style={{marginTop: '30px', textAlign: 'center'}}>Joshua Jefson Romulo</h1>
+        <h1 className={`${styles.curly} ${'header-name'}`} style={{marginTop: '100px', textAlign: 'center'}}>Joshua Jefson Romulo</h1>
       </div>
     </div>
   );
