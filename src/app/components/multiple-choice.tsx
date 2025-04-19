@@ -5,45 +5,33 @@ import styles from '../components/styles.module.css';
 
 export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1: string, file_path_2: string}) {
 
-  //------------------------------------------------------------------
-  // variables //
   const jsonQuestions: string[] = [];
   const jsonAnswers: string[] = [];
   const jsonExplanations: string[] = [];
-  //------------------------------------------------------------------
   const jsonFinalQuestions: string[] = [];
   const jsonFinalAnswers: string[] = [];
   const jsonFinalExplanations: string[] = [];
-  //------------------------------------------------------------------
   const [questions, setQuestions] = useState([] as string[]);
   const [answers, setAnswers] = useState([] as string[]);
   const [explanations, setExplanations] = useState([] as string[]);
-  //------------------------------------------------------------------
   const [listLength, setLength] = useState(0);
   const [choiceDisabled, setChoiceDisabled] = useState(false);
-  //------------------------------------------------------------------
   const [buttonColor1, setButtonColor1] = useState('');
   const [buttonColor2, setButtonColor2] = useState('');
   const [buttonColor3, setButtonColor3] = useState('');
   const [buttonColor4, setButtonColor4] = useState('');
   const [buttonColor5, setButtonColor5] = useState('');
-  //------------------------------------------------------------------
   const [nextButtonDisabled, setNextButtonDisabled] = useState(false);
-  //------------------------------------------------------------------
   const [buttonText, setButtonText] = useState('Start');
   const [beginTruthy, setBeginTruthy] = useState(false);
   const [examStarted, setExamStarted] = useState(false);
-  //------------------------------------------------------------------
   const [counter, updateCounter] = useState(0);
-  //------------------------------------------------------------------
 
-  // Random Number Generator
   function random_number_generator(min: number, max: number): number {
     return Math.random() * (max - min) + min;
   }
 
   async function fetchQuestions() {
-    // load questions data //
     const res = await fetch(file_path_1);
     const resJSON = await res.json();
 
@@ -51,7 +39,6 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
       jsonQuestions.push(i);
       jsonAnswers.push(resJSON[i]);
     }
-    //-------------------------------------------------------------------------------
     const used_random_indices: number[] = [];
     for (let i = 0; i < jsonQuestions.length; i += 1) {
       let num: number = Math.floor(random_number_generator(0, jsonQuestions.length));
@@ -67,7 +54,6 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
       }
     }
 
-    // load explanations data //
     const response = await fetch(file_path_2);
     const responseJSON = await response.json();
 
@@ -80,12 +66,9 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
       jsonFinalAnswers.push(jsonAnswers[used_random_indices[i]]);
       jsonFinalExplanations.push(jsonExplanations[used_random_indices[i]]);
     }
-    //-------------------------------------------------------------------------------
     setQuestions(jsonFinalQuestions);
     setAnswers(jsonFinalAnswers);
-    //-----------------------------------
     setLength(jsonFinalQuestions.length);
-    //-----------------------------------
     setExplanations(jsonFinalExplanations);
   }
 
@@ -95,7 +78,6 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
 
   function startExam() {
     if (examStarted) { // 'Next' button
-      // console.log((counter + 1) + " | "  + listLength);
       if ((counter + 1) === listLength) {
         setChoiceDisabled(true);
         setNextButtonDisabled(true);
@@ -105,7 +87,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
         setChoiceDisabled(false); // enable the buttons for the choices after assessing
         setNextButtonDisabled(true);
         hideOverlay();
-        //---------------------------------------------------
+        
         setButtonColor1('transparent'); // reset button color
         setButtonColor2('transparent'); // reset button color
         setButtonColor3('transparent'); // reset button color
@@ -124,13 +106,6 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
       setNextButtonDisabled(true);
     }
   }
-
-  // -------------------------------------------------
-  function showExplanation() {
-    alert(explanations[counter]);
-    // console.log('dude:' + explanations);
-  }
-  // -------------------------------------------------
 
   function checkAnswer(selectedChoice: number): void {
     setChoiceDisabled(true); // disable the buttons for the choices while assessing
@@ -214,16 +189,12 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
           } 
         </div>
 
-        {/* ------------------------------------------ */}
-
         <div id="overlay" className={styles.overlay}>
           <div style={{display: 'flex'}}>
             <button style={{color: 'grey', margin: '10px 10px', marginLeft: 'auto', marginRight: '20px', fontSize: '17px'}} onClick={hideOverlay}>X</button>
           </div>
           <p style={{color: 'grey', margin: '5px 20px', fontSize: '15px'}}>{explanations[counter]}</p>
         </div>
-
-        {/* ------------------------------------------ */}
         
         {beginTruthy ? (
           <div className="flex flex-col items-center justify-center" style={{zIndex: '1'}}>
