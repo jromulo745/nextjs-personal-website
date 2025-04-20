@@ -108,7 +108,7 @@ export default function MultipleChoice({file_path_1, file_path_2}: {file_path_1:
   }
 
   function checkAnswer(selectedChoice: number): void {
-    setChoiceDisabled(true); // disable the buttons for the choices while assessing
+    setChoiceDisabled(true);
     setNextButtonDisabled(false);
     setExamStarted(true);
 
