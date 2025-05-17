@@ -28,5 +28,6 @@
   "The git ______ command is a management tool for your record of remote repositories. It allows you to save long URLs as short handles, such as “origin” so you don’t have to type them out all the time. You can have several of these and the git remote command is used to add, change and delete them.": "remote",
   "The git _______ command is used to create an archive file of a specific snapshot of the project. We use git _______ to create a tarball of a project for sharing in Preparing a Release.": "archive",
   "The git _________ command is used to manage external repositories within a normal repositories. This could be for libraries or other types of shared resources. The submodule command has several sub-commands (add, update, sync, etc) for managing these resources.": "submodule",
-  "The git ____ command can show a Git object in a simple and human readable way. Normally you would use this to show the information about a tag or a commit.": "show"
+  "The git ____ command can show a Git object in a simple and human readable way. Normally you would use this to show the information about a tag or a commit.": "show",
+  "This git command can be used when you want to cancel a commit and point to the last pointed HEAD.": "git --reset soft HEAD ~1"
 }
