@@ -2,21 +2,17 @@
 
 import Navbar from "../../components/navbar";
 import Link from 'next/link';
-import SquareAnimations from '../../components/square-animations';
 
 export default function HomePage() {
   return (
     <div>
       <Navbar />
-      {/* ------------------------------------------------ */}
       <div className="flex justify-center">
         <div className="backdrop-blur-md border shadow-lg rounded-3xl ml-20 mr-20 mt-10 p-10 max-w-3xl introduction">
           <h2 className="flex justify-center text-3xl mb-5 title" style={{color: '#9B9EAE'}}>IT | Software Engineer</h2>
-          <p className="mt-5" style={{color: '#6E717A'}}>Hello! My name is Joshua Jefson Romulo, and this is my portfolio website, programmed  using NextJS. I'm a computer science graduate with work experience in IT, and some of my interests include web/mobile application development and cybersecurity. Cheers!</p>
+          <p className="mt-5" style={{color: '#6E717A'}}>Hello! My name is Joshua Jefson Romulo, and this is my portfolio website, programmed  using NextJS. I'm a computer science graduate with work experience in Software Engineering and IT, and some of my interests include web/mobile application development and cybersecurity. Let's connect!</p>
         </div>
       </div>
-
-      {/* ------------------------------------------------------------------- */}
       <div className="flex justify-center">
         <div className="flex ml-20 mr-20 mt-5 mb-5 boxes" style={{justifyContent: 'around', gap: '15px', maxWidth: '768px'}}>
           
@@ -40,7 +36,6 @@ export default function HomePage() {
   
         </div>
       </div>
-      {/* ------------------------------------------------------------------- */}
     </div>
   );
 }
