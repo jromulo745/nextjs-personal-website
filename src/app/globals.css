@@ -24,7 +24,6 @@ h2, p, button {
 
 @media(max-width: 700px) {
   .navbar {
-    display: none;
     flex-direction: column;
     padding-top: 10px;
   }
