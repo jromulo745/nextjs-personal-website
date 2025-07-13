@@ -29,5 +29,6 @@
   "The git _______ command is used to create an archive file of a specific snapshot of the project. We use git _______ to create a tarball of a project for sharing in Preparing a Release.": "archive",
   "The git _________ command is used to manage external repositories within a normal repositories. This could be for libraries or other types of shared resources. The submodule command has several sub-commands (add, update, sync, etc) for managing these resources.": "submodule",
   "The git ____ command can show a Git object in a simple and human readable way. Normally you would use this to show the information about a tag or a commit.": "show",
-  "This git command can be used when you want to cancel a commit and point to the last pointed HEAD.": "git --reset soft HEAD ~1"
+  "This git command can be used when you want to cancel a commit and point to the last pointed HEAD.": "git --reset soft HEAD ~1",
+  "If you want to see more information about a particular remote, you can use the ___ ______ ____ ______ command.": "git remote show origin"
 }
