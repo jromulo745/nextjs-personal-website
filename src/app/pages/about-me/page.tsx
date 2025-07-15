@@ -26,7 +26,7 @@ export default function AboutMePage() {
           
           <h2 style={{textAlign: 'center', marginTop: '30px', fontStyle: 'italic'}}>California State University, East Bay</h2>
           <ul style={{textAlign: 'left', margin: '10px 50px'}}>
-            <li style={{listStyleType: 'disc'}}><strong>IT Accessibility Production Assistant</strong></li>
+            <li style={{listStyleType: 'disc'}}><strong>IT Accessibility Production Student Assistant</strong></li>
             <ul style={{listStyleType: 'circle'}}>
               <li>Processing student requests for physical and electronic course materials and textbooks into Accessible Format using Assistive Technology and OCR software.</li>
               <li>Upholding of an electronic inventory.</li>
