@@ -10,7 +10,7 @@ export default function Page() {
     <div>
       <Navbar />
       {/* ---------------------------------------------------------- */}
-      <MultipleChoice file_path_1={"/N10-009/multiple-choice.json"} file_path_2={"/220-1102/multiple-choice-explanations.json"} />
+      <MultipleChoice file_path_1={"/N10-009/multiple-choice.json"} file_path_2={"/N10-009/multiple-choice-explanations.json"} />
       {/* ---------------------------------------------------------- */}
       <FillIn file_path={"/N10-009/fill-in.json"} />
       {/* ---------------------------------------------------------- */}
