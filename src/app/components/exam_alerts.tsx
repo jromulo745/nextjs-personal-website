@@ -69,5 +69,3 @@ export default function ExamAlerts({file_path}: {file_path: string}) {
     </div>
   );
 }
-
-//test add
