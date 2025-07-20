@@ -34,5 +34,9 @@
   "Adding protocol information to data as it passes through layers is known as _____________": "encapsulation",
   "Removing protocol information to data as it passes through layers is known as _____________.": "decapsulation",
   "With TCP, a data session is established through a three-step process. This is known as a three-way _____.": "handshake",
-  "The SSH protocol is a more secure alternative to what protocol?": "Telnet"
+  "The SSH protocol is a more secure alternative to what protocol?": "Telnet",
+  "Which topology is commonly known as a hub and spoke model?": "star",
+  "With which topology does every node have a direct connection to every other node?": "mesh",
+  "True or false: Traffic flows entering and leaving a datacenter are known as East-West traffic.": "false",
+  "True or false: In the three-tier hierarchical model, the access/edge layer ensures data is delivered to edge/end devices.": "true"
 }
