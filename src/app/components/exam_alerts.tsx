@@ -1,27 +1,18 @@
 'use client';
 
-import { list } from "postcss";
 import { useEffect, useState, useRef, use } from "react";
 
 export default function ExamAlerts({file_path}: {file_path: string}) {
 
   // variables //
-  const jsonQuestions: string[] = [];
   const jsonAlerts: string[] = [];
-  const [questions, setQuestions] = useState([] as string[]);
   const [answers, setAnswers] = useState([] as string[]);
-  //------------------------------------------------------------------
   const [listLength, setLength] = useState(0);
-  //------------------------------------------------------------------
   const [nextButtonDisabled, setNextButtonDisabled] = useState(false);
-  const [submitButtonDisabled, setSubmitDisabled] = useState(false);
-  //------------------------------------------------------------------
   const [buttonText, setButtonText] = useState('Start');
   const [beginTruthy, setBeginTruthy] = useState(false);
   const [examStarted, setExamStarted] = useState(false);
-  //------------------------------------------------------------------
   const [counter, updateCounter] = useState(0);
-  //------------------------------------------------------------------
 
   async function fetchAlerts() { 
     // fetch questions
