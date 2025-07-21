@@ -7,26 +7,18 @@ export default function FillIn({file_path}: {file_path: string}) {
   // variables //
   const jsonQuestions: string[] = [];
   const jsonAnswers: string[] = [];
-  //------------------------------------------------------------------
   const randomizedJsonQuestions: string[] = [];
   const randomizedJsonAnswers: string[] = [];
-  //------------------------------------------------------------------
   const [questions, setQuestions] = useState([] as string[]);
   const [answers, setAnswers] = useState([] as string[]);
-  //------------------------------------------------------------------
   const used_random_numbers: number[] = [];
-  //------------------------------------------------------------------
   const [listLength, setLength] = useState(0);
-  //------------------------------------------------------------------
   const [nextButtonDisabled, setNextButtonDisabled] = useState(false);
   const [submitButtonDisabled, setSubmitDisabled] = useState(false);
-  //------------------------------------------------------------------
   const [buttonText, setButtonText] = useState('Start');
   const [beginTruthy, setBeginTruthy] = useState(false);
   const [examStarted, setExamStarted] = useState(false);
-  //------------------------------------------------------------------
   const [counter, updateCounter] = useState(0);
-  //------------------------------------------------------------------
 
   async function fetchQuestions() { 
     // fetch questions
@@ -38,7 +30,6 @@ export default function FillIn({file_path}: {file_path: string}) {
       jsonAnswers.push(resJSON[i]);
     }
 
-    //------------------------------------------------------------------
     let random_index;
     for (let x = 0; x < jsonQuestions.length; x++) {
       random_index = Math.floor(Math.random() * jsonQuestions.length);
@@ -56,7 +47,6 @@ export default function FillIn({file_path}: {file_path: string}) {
       }
     }    
 
-    //------------------------------------------------------------
     //debugging duplicates
     console.log(used_random_numbers);
     for (let i = 0; i < used_random_numbers.length; i++) {
@@ -66,17 +56,12 @@ export default function FillIn({file_path}: {file_path: string}) {
         }
       }
     }
-    //------------------------------------------------------------
 
     for (let x = 0; x < used_random_numbers.length; x++){
       randomizedJsonQuestions.push(jsonQuestions[used_random_numbers[x]]);
       randomizedJsonAnswers.push(jsonAnswers[used_random_numbers[x]]);
     }
-    // console.log(used_random_numbers);
-    //------------------------------------------------------------------
     
-    // setQuestions(jsonQuestions);
-    // setAnswers(jsonAnswers);
     setQuestions(randomizedJsonQuestions);
     setAnswers(randomizedJsonAnswers);
     setLength(jsonQuestions.length);
