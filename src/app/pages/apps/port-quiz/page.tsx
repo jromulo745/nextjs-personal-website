@@ -14,5 +14,3 @@ export default function Page() {
     </div>
   );
 }
-
-// test comment
