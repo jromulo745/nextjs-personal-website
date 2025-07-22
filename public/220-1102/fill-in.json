@@ -140,5 +140,7 @@
   "An _____-_______ event is a drop in voltage that can cause computers to shut off.": "under voltage",
   "A _____ _______ is a total loss of power for a prolonged time.": "power failure",
   "To protect against surges and spikes, use a _____ _________!": "surge protector",
-  "A ___ combines the functionality of a surge suppressor with a battery backup. A ___ protects a computer not only from surges and spikes but also from sags, under-voltage events, and power failures.": "UPS"
+  "A ___ combines the functionality of a surge suppressor with a battery backup. A ___ protects a computer not only from surges and spikes but also from sags, under-voltage events, and power failures.": "UPS",
+  "You’ll also hear strings referred to as ____________ _______, which can include letters in the alphabet, digits, blank space, and special characters and punctuation.": "alphanumeric strings",
+  "Which character(s) is used to comment in PowerShell and Bash?": "#"
 }
