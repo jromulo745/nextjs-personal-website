@@ -201,5 +201,9 @@
     "200": "Know the difference between open source and commercial licenses. And know the difference between personal licenses and corporate-use licenses.",
     "201": "Know the types of regulated data and related concepts, including PII, PHI, PCI, and GDPR.",
     "202": "Objective 4.7 focuses on the following: professional appearance and attire; using proper language and avoiding jargon, acronyms, and slang, when applicable; maintaining a positive attitude/project confidence; actively listening; taking notes; avoiding interrupting the customer; being culturally sensitive; being on time (and, if late, contact the customer); avoiding distractions; dealing with difficult customers or situations; setting and meeting expectations/time lines and communicating status with the customer; and dealing appropriately with customers’ confidential and private materials.",
-    "203": "Be professional, punctual, and positive and practice all the other skills mentioned in this section. They are important for the exam—and crucial in the computer field."
+    "203": "Be professional, punctual, and positive and practice all the other skills mentioned in this section. They are important for the exam—and crucial in the computer field.",
+    "204": "Objective 4.8 concentrates on the following: script file types, use cases for scripting, and other considerations when using scripts.",
+    "205": "Note: By the way, if you need fractions or decimal places (real numbers), then you need floating-point numbers rather than integers.",
+    "206": "Basic loops let a program execute the same statement several times. Each time a loop executes a block of statements, it is called an iteration.",
+    "207": "For the exam, know how to comment out code with # (in PowerShell and Bash) or // (in other commonly used scripting languages)."
 }
