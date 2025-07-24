@@ -34,7 +34,7 @@ export default function AboutMePage() {
             </ul>
           </ul>
 
-          <h2 style={{textAlign: 'center', marginTop: '30px', fontStyle: 'italic'}}>Acuren Inspection</h2>
+          <h2 style={{textAlign: 'center', marginTop: '30px', fontStyle: 'italic'}}>Acuren Engineering</h2>
           <ul style={{textAlign: 'left', margin: '10px 50px'}}>
             <li style={{listStyleType: 'disc'}}><strong>IT Helpdesk Analyst</strong></li>
             <ul style={{listStyleType: 'circle'}}>
