@@ -16,6 +16,10 @@ export default function AboutMePage() {
           <div className="flex justify-center mt-10">
             <img src="/images/acuren-logo-from-site.png" width="145" height="112"></img>
           </div>
+
+          <div className="flex justify-center mt-10">
+            <img src="/images/horizontal-alternative-family-services-logo-768x377.jpg" width="145" height="112"></img>
+          </div>
         </div>
 
         <div className="backdrop-blur-md border rounded-3xl mb-20 mt-10 mr-10 p-10 max-w-xl work-history-section">
