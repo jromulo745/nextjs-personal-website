@@ -32,9 +32,9 @@ export default function AboutMePage() {
           <ul style={{textAlign: 'left', margin: '10px 50px'}}>
             <li style={{listStyleType: 'disc'}}><strong>IT Accessibility Production Student Assistant</strong></li>
             <ul style={{listStyleType: 'circle'}}>
-              <li>Processing student requests for physical and electronic course materials and textbooks into Accessible Format using Assistive Technology and OCR software.</li>
-              <li>Upholding of an electronic inventory.</li>
-              <li>Providing triage services to the ICT process via campus ticketing system (Service Desk).</li>
+              <li>Processed student requests for physical and electronic course materials and textbooks into Accessible Format using Assistive Technology and OCR software.</li>
+              <li>Upheld of an electronic inventory.</li>
+              <li>Provided triage services to the ICT process via campus ticketing system (Service Desk).</li>
             </ul>
           </ul>
 
@@ -42,11 +42,11 @@ export default function AboutMePage() {
           <ul style={{textAlign: 'left', margin: '10px 50px'}}>
             <li style={{listStyleType: 'disc'}}><strong>IT Helpdesk Analyst</strong></li>
             <ul style={{listStyleType: 'circle'}}>
-              <li>Troubleshoot issues related to computer software, hardware, networking, and phone systems and resolve within 
+              <li>Troubleshooted issues related to computer software, hardware, networking, and phone systems and resolve within 
                   established SLA’s.</li>
-              <li>Document technical issues and take ownership of escalating issues to the appropriate resource.</li>
-              <li>Ensure security and privacy of networks and computer systems.</li>
-              <li>Azure administration of user accounts throughout the company.</li>            
+              <li>Documented technical issues and take ownership of escalating issues to the appropriate resource.</li>
+              <li>Ensured security and privacy of networks and computer systems.</li>
+              <li>Administrated Azure user accounts throughout the company.</li>            
             </ul>
           </ul>
 
