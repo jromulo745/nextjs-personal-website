@@ -26,10 +26,7 @@
   "What is the network port for RDP?": "3389",
   "What is the network port (UDP, default) for Syslog?": "514",
   "What is the network port (TCP) for Syslog?": "601",
-  "How many pins does a SODIMM DDR3 module have?": "204",
-  "How many pins does a SODIMM DDR4 module have?": "260",
-  "How many pins does a SODIMM DDR5 module have?": "262",
-    "By default, in a typical IPv4 network, the DHCP server needs to have inbound port __ open.": "67",
+  "By default, in a typical IPv4 network, the DHCP server needs to have inbound port __ open.": "67",
   "In a typical IPv4 network, a DHCP client uses port __ to connect out to the DHCP server.": "68",
   "What is the network port for DHCPv6 (server)?": "547",
   "What is the network port for DHCPv6 (client)?": "546"
