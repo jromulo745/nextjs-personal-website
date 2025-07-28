@@ -9,9 +9,9 @@ export default function FillIn({file_path}: {file_path: string}) {
   const jsonAnswers: string[] = [];
   const randomizedJsonQuestions: string[] = [];
   const randomizedJsonAnswers: string[] = [];
+  const used_random_numbers: number[] = [];
   const [questions, setQuestions] = useState([] as string[]);
   const [answers, setAnswers] = useState([] as string[]);
-  const used_random_numbers: number[] = [];
   const [listLength, setLength] = useState(0);
   const [nextButtonDisabled, setNextButtonDisabled] = useState(false);
   const [submitButtonDisabled, setSubmitDisabled] = useState(false);
@@ -42,10 +42,10 @@ export default function FillIn({file_path}: {file_path: string}) {
           }
         }
       }
-      else {
+      else { 
         used_random_numbers.push(random_index);
       }
-    }    
+    }
 
     //debugging duplicates
     console.log(used_random_numbers);
