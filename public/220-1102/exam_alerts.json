@@ -205,5 +205,18 @@
     "204": "Objective 4.8 concentrates on the following: script file types, use cases for scripting, and other considerations when using scripts.",
     "205": "Note: By the way, if you need fractions or decimal places (real numbers), then you need floating-point numbers rather than integers.",
     "206": "Basic loops let a program execute the same statement several times. Each time a loop executes a block of statements, it is called an iteration.",
-    "207": "For the exam, know how to comment out code with # (in PowerShell and Bash) or // (in other commonly used scripting languages)."
+    "207": "For the exam, know how to comment out code with # (in PowerShell and Bash) or // (in other commonly used scripting languages).",
+    "208": "Once again, Objective 4.8 concentrates on the following: script file types, use cases for scripting, and other considerations when using scripts.",
+    "209": "Know that PowerShell scripts are identified by the .ps1 extension!",
+    "210": "Know that the .sh file extension represents a Linux/Unix shell scripting file.",
+    "211": "Many technicians prefer Vim because it is heavily customizable and can provide for excellent workflow.However, it is more cryptic in its usage if you are not used to it. Vim is based on the original (and ancient) Unix text editor vi but is a bit easier to use. Vim is vi improved. vi is included in almost all distributions of Linux, and Vim is included in many as well. However, if Vim is not available in yours, you can install it by using a command like apt install vim (in Debian/Ubuntu) or dnf install vim (in Fedora/Red Hat). I recommend that you use Vim rather than vi because of its comparative ease of use and because it is very adaptable.",
+    "212": "You might have noticed that the Bash scripts started with #!/bin/bash. This is known as the shebang, or “bang,” line. This is not a comment; rather, it tells Linux to interpret the script using the Bash shell and specifies the absolute directory path to that shell, which is /bin/bash. So, #! is different from just #.",
+    "213": "Linux is a super-important tool for all kinds of techs: sysadmins, developers, and engineers.",
+    "214": "An example of secure coding is working within a software development life cycle (SDLC) such as the agile model. SDLC models have a few core principles, including maintaining confidentiality, preserving integrity, and protecting availability (the CIA triad).",
+    "215": "Know how to use Bash, including Terminal, nano, and Vim, for the exam!",
+    "216": "Python scripting files use the .py file extension.",
+    "217": "Remember, JavaScript files use the .js file extension.",
+    "218": "Speaking of markup languages, as a technician, you will want to learn a little bit about JavaScript Object Notation (JSON), which was derived from JavaScript. This markup language is used by many programs and systems for configuration files and analysis. Other good markup languages to know include YAML, HCL, and especially Markdown. Trust me on this.",
+    "219": "A file with the .vbs extension is a Visual Basic script, or VBScript file.",
+    "220": "(2021) In Windows, a lot of what was once done in VBScript is now done with PowerShell. On the Internet, it is more likely that you will use JavaScript or some other tool. However, VBScript still has a place in .NET (though many developers prefer C#) and especially within Microsoft Office. See this site for a tutorial about using the Visual Basic Editor within Microsoft Office, known as Visual Basic for Applications (VBA)."
 }
