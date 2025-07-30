@@ -150,5 +150,8 @@
   "Say that you want to test whether a computer is alive on the network. You could run the ping command, but PowerShell also offers the _______________ cmdlet, which enables you to ping multiple systems and in many ways. ": "test-connection",
   "What is the PowerShell cmdlet to restart a machine?": "Restart-Computer",
   "What is the PowerShell cmdlet to map a network drive?": "New-PSDrive",
-  "What is the PowerShell cmdlet to install new applications?": "Invoke-CimMethod"
+  "What is the PowerShell cmdlet to install new applications?": "Invoke-CimMethod",
+  "Python scripting files use the ___ file extensiomn.": ".py",
+  "Remember, JavaScript files use the ___ file extension.": ".js",
+  "A file with the ____ extension is a Visual Basic script, or VBScript file.": ".vbs"
 }
