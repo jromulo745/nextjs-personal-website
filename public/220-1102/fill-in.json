@@ -142,5 +142,10 @@
   "To protect against surges and spikes, use a _____ _________!": "surge protector",
   "A ___ combines the functionality of a surge suppressor with a battery backup. A ___ protects a computer not only from surges and spikes but also from sags, under-voltage events, and power failures.": "UPS",
   "You’ll also hear strings referred to as ____________ _______, which can include letters in the alphabet, digits, blank space, and special characters and punctuation.": "alphanumeric strings",
-  "Which character(s) is used to comment in PowerShell and Bash?": "#"
+  "Which character(s) is used to comment in PowerShell and Bash?": "#",
+  "___________ is Microsoft’s main command-line and scripting environment for Windows. It is a much more powerful shell than the Command Prompt and is the preferred method for administration, scripting, and developing.": "PowerShell",
+  "A ______ is a lightweight command that is used in the PowerShell environment.": "cmdlet",
+  "A ______ is used to run multiple commands in rapid succession and to initiate for loops and other programmatical constructs.": "script",
+  "In PowerShell, a variable name always begins with a _ character.": "$",
+  "Say that you want to test whether a computer is alive on the network. You could run the ping command, but PowerShell also offers the _______________ cmdlet, which enables you to ping multiple systems and in many ways. ": "test-connection"
 }
