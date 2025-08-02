@@ -130,5 +130,6 @@
   "Which of the following can you use to map a network drive in PowerShell?": ["apt install", "for loop", "restart-computer", "Install-WUUpdates", "*New-PSDrive"],
   "Which program enables a user to invite a technician to help repair their computer remotely?": ["Remote Desktop Connection", "*Remote Assistance", "RDP", "Remote connectivity", "None of the listed"],
   "You have been tasked with making a command-line-based remote connection to an Ubuntu Linux computer located on your LAN so that you can run two scripts on it as an administrator. What protocol should you use? (Select the best answer.)": ["RDP", "mstsc", "*SSH", "VPN", "None of the listed"],
-  "You are a technician working on a help desk. One of your customers installed a program to Windows that requires a license key. After the user contacted you, you accessed the customer’s system and entered the license key manually. Which tool did you use to accomplish this?": ["SSH", "FTP", "*RDP", "rsync", "None of the listed"]
+  "You are a technician working on a help desk. One of your customers installed a program to Windows that requires a license key. After the user contacted you, you accessed the customer’s system and entered the license key manually. Which tool did you use to accomplish this?": ["SSH", "FTP", "*RDP", "rsync", "None of the listed"],
+  "Which of the following commands will display the MAC address of a computer?": ["ping", "netstat", "*ipconfig /all", "ipconfig /renew", "none of the listed"]
 }
