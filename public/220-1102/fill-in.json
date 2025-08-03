@@ -154,5 +154,6 @@
   "Python scripting files use the ___ file extensiomn.": ".py",
   "Remember, JavaScript files use the ___ file extension.": ".js",
   "A file with the ____ extension is a Visual Basic script, or VBScript file.": ".vbs",
-  "Remember, Home editions of Windows only allow the ______ side of Remote Desktop, so consider using Windows Pro or higher to have full Remote Desktop capabilities.": "client"
+  "Remember, Home editions of Windows only allow the ______ side of Remote Desktop, so consider using Windows Pro or higher to have full Remote Desktop capabilities.": "client",
+  "You need to map a network drive to a share named data1 on a computer named Jupiter-Server. You want to use the J: drive letter. Which syntax should you use to do this in the Command Prompt?": "net use J: \\\\Jupiter-Server\\data1"
 }
