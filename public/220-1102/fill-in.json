@@ -151,7 +151,7 @@
   "What is the PowerShell cmdlet to restart a machine?": "Restart-Computer",
   "What is the PowerShell cmdlet to map a network drive?": "New-PSDrive",
   "What is the PowerShell cmdlet to install new applications?": "Invoke-CimMethod",
-  "Python scripting files use the ___ file extensiomn.": ".py",
+  "Python scripting files use the ___ file extension.": ".py",
   "Remember, JavaScript files use the ___ file extension.": ".js",
   "A file with the ____ extension is a Visual Basic script, or VBScript file.": ".vbs",
   "Remember, Home editions of Windows only allow the ______ side of Remote Desktop, so consider using Windows Pro or higher to have full Remote Desktop capabilities.": "client",
