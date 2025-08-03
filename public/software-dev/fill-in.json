@@ -43,5 +43,6 @@
   "Running ___ ______ updates all installed packages to their latest acceptable version. You should use this command frequently to avoid outdated dependencies and security risks": "npm update",
   "Running ___ _________ _________ removes the package and its dependencies from the local node_modules folder and package.json file. You should use this command to delete modules you don’t need anymore.": "npm uninstall <package>",
   "Running ___ _______ downloads all dependencies and devDependencies from the npm repository and places them in the node_modules folder": "npm install",
-  "When you installed Node.js, you also installed npx, which stands for ____ _______ _______. This tool enables you to execute any package from the registry without installing it beforehand. This is useful when you need to run some code only once. For example, you might use a scaffolding script that initializes a project but is neither a dependency nor a development dependency": "node package execute"
+  "When you installed Node.js, you also installed npx, which stands for ____ _______ _______. This tool enables you to execute any package from the registry without installing it beforehand. This is useful when you need to run some code only once. For example, you might use a scaffolding script that initializes a project but is neither a dependency nor a development dependency": "node package execute",
+  "The git ___ ________ \"name/email\" returns all commits of name/email": "log --author"
 }
