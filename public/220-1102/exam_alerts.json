@@ -232,5 +232,6 @@
     "231": "You will definitely see exam questions on SSH! Understand why you would use SSH and know how to use SSH client software to make connections to remote computers.",
     "232": "Know that VPNs use secure tunneling protocols to connect secure private networks (or devices) together through public (unsecured) networks such as the Internet.",
     "233": "Note: Some organizations use VPN servers or appliances that are not quite compatible with the Windows VPN client. In such cases, always-on VPN services such as OpenVPN can be used, but a separate client has to be downloaded and installed to the Windows computer.",
-    "234": "Note: You might opt to run RDP or SSH through a VPN for added security, especially if you are remoting to a computer on the Internet. Some people use OpenSSH with Open-VPN tunneling."
+    "234": "Note: You might opt to run RDP or SSH through a VPN for added security, especially if you are remoting to a computer on the Internet. Some people use OpenSSH with Open-VPN tunneling.",
+    "235": "The seven steps of the malware removal procedures are (1) Investigate and verify malware symptoms, (2) Quarantine the infected systems, (3) Disable System Restore in Windows, (4) Remediate the infected systems, update anti-malware software, scan the system, and use removal techniques (e.g., safe mode, pre-installation environment), (5) Schedule scans and run updates, (6) Enable System Restore and create a restore point in Windows, and (7) Educate the end user."
 }
