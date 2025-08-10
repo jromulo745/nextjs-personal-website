@@ -48,5 +48,7 @@
   "SwiftUI is a _________ that provides views, controls, and layout structures for creating your app’s user interface.": "framework",
   "Xcode colors different parts of your code according to their purpose; this is called ______ ____________.": "syntax highlighting",
   "In iOS development using Swift, an HStack is a _________ ____ that arranges views horizontally. A VStack arranges the views it contains vertically.": "container view",
-  "In iOS development using Swift, A _______ is a view used inside another view.": "subview"
+  "In iOS development using Swift, A _______ is a view used inside another view.": "subview",
+  "________ languages are converted directly into machine code that the processor can execute.": "compiled",
+  "___________ languages are those in which the source code is executed by an interpreter ( is responsible for translating the source code into machine code at runtime) without being compiled into machine code first.": "Interpreted"
 }
