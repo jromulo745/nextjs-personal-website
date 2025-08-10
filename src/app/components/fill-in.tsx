@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useRef, use } from "react";
+import { useEffect, useState } from "react";
 
 export default function FillIn({file_path}: {file_path: string}) {
 
