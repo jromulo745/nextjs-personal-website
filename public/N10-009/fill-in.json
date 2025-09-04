@@ -31,7 +31,7 @@
   "Which OSI layer synchronizes the data exchange between applications on separate devices.": "session",
   "Which OSI layer translates data from the format used by applications into one that can be transmitted across the network. Handles encryption and decryption of data. Provides compression and decompression functionality. Formats data from the application layer into a format that can be sent over the network.": "presentation",
   "Which OSI layer provides access to the network for applications.": "application",
-  "Adding protocol information to data as it passes through layers is known as _____________": "encapsulation",
+  "Adding protocol information to data as it passes through layers is known as _____________.": "encapsulation",
   "Removing protocol information to data as it passes through layers is known as _____________.": "decapsulation",
   "With TCP, a data session is established through a three-step process. This is known as a three-way _____.": "handshake",
   "The SSH protocol is a more secure alternative to what protocol?": "Telnet",
