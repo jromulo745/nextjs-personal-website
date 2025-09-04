@@ -42,5 +42,7 @@
   "Within the context of SNMP databases, what does \"MIB\" stand for?": "Management Information Base",
   "Within the context of time-synchronization communication, what does NTP stand for?": "Network Time Protocol",
   "State the bottom-to-top mnemonic that you (Josh) will personally use to recite the 7 layers of the OSI model": "People Don't Need To See Paul Allen",
-  "State the top-to-bottom mnemonic that you (Josh) will personally use to recite the 7 layers of the OSI model": "All People Seem To Need Data Processing"
+  "State the top-to-bottom mnemonic that you (Josh) will personally use to recite the 7 layers of the OSI model": "All People Seem To Need Data Processing",
+  "Within the context of IPSec, what does AH stand for?" "Authentication Header",
+  "Within the context of IPSec, what does ESP stand for?": "Encapsulating Security Payload"
 }
