@@ -19,7 +19,7 @@
   "The ___ address is the physical or hardware address burned into each NIC.": "MAC",
   "The primary responsibility of the _______ layer is routing, providing mechanisms by which data can be passed from one network system to another. The _______ layer does not specify how the data is passed but rather provides the mechanisms to do so. ": "network",
   "The term ______ describes the logical grouping of data at the network layer.": "packet",
-  "The basic function of the transport layer is to provide mechanisms to transport data between network devices.": "transport",
+  "The basic function of the _________ layer is to provide mechanisms to transport data between network devices.": "transport",
   "Protocols that operate at the _________ layer can either be connectionless, such as User Datagram Protocol (UDP), or connection oriented, such as Transmission Control Protocol (TCP).": "transport",
   "The ____________ layer’s basic function is to convert the data intended for or received from the application layer into another format.": "presentation",
   "Another important function of the ____________ layer is encryption, which is the scrambling of data so that it can’t be read by anyone other than the intended recipient. Given the basic role of the ____________ layer—that of data-format translator—it is the obvious place for encryption and decryption to take place.": "presentation",
