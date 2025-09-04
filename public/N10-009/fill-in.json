@@ -39,5 +39,6 @@
   "With which topology does every node have a direct connection to every other node?": "mesh",
   "True or false: Traffic flows entering and leaving a datacenter are known as East-West traffic.": "false",
   "True or false: In the three-tier hierarchical model, the access/edge layer ensures data is delivered to edge/end devices.": "true",
-  "Within the context of SNMP databases, what does \"MIB\" stand for?": "Management Information Base"
+  "Within the context of SNMP databases, what does \"MIB\" stand for?": "Management Information Base",
+  "Within the context of time-synchronization communication, what does NTP stand for?": "Network Time Protocol"
 }
