@@ -1,7 +1,7 @@
 {
   "Which layer of the OSI model converts data from the application layer into a format that can be sent over the network?": "presentation",
   "True or false: Transport protocols, such as UDP, map to the transport layer of the OSI model and are responsible for transporting data across the network.": "True",
-  "At what layer of the OSI model do HTTP and SSH map?": "application layer",
+  "At what layer of the OSI model do HTTP and SSH map?": "application",
   "What is layer 7 of the OSI Model?": "Application",
   "What is layer 6 of the OSI Model?": "Presentation",
   "What is layer 5 of the OSI Model?": "Session",
