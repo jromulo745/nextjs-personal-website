@@ -61,5 +61,6 @@
   "SIP operates at the application layer of the OSI model and is used to maintain a multimedia session. SIP uses ports 5060 and ____.": "5061",
   "At which layer does a wireless access point (AP) operate?": "data link",
   "________ ___ ________ (IKE) is a key management protocol used with IPsec to establish secure communication channels and negotiate cryptographic keys for encrypted VPN connections": "Internet Key Exchange",
-  "In the _____-tier hierarchical model, the access/edge layer ensures data is delivered to edge/end devices.": "three"
+  "In the _____-tier hierarchical model, the access/edge layer ensures data is delivered to edge/end devices.": "three",
+  "What does TFTP stand for?": "Trivial File Transfer Protocol"
 }
