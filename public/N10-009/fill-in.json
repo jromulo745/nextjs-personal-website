@@ -67,5 +67,6 @@
   "Within the context of networking, what does SIP stand for?": "Session Initiation Protocol",
   "Which port does HTTPS use?": "443",
   "DHCP uses port __ & port 68": "67",
-  "DHCP uses port 67 & port __": "68"
+  "DHCP uses port 67 & port __": "68",
+  "__, which is defined in RFC 791, is the protocol used to transport data from node on a network to another.": "IP"
 }
