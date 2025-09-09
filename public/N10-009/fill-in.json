@@ -63,5 +63,6 @@
   "________ ___ ________ (IKE) is a key management protocol used with IPsec to establish secure communication channels and negotiate cryptographic keys for encrypted VPN connections": "Internet Key Exchange",
   "In the _____-tier hierarchical model, the access/edge layer ensures data is delivered to edge/end devices.": "three",
   "What does TFTP stand for?": "Trivial File Transfer Protocol",
-  "The _________ layer (OSI) is responsible for establishing a connection between networked devices.": "transport"
+  "The _________ layer (OSI) is responsible for establishing a connection between networked devices.": "transport",
+  "Within the context of networking, what does SIP stand for?": "Session Initiation Protocol"
 }
