@@ -64,5 +64,8 @@
   "In the _____-tier hierarchical model, the access/edge layer ensures data is delivered to edge/end devices.": "three",
   "What does TFTP stand for?": "Trivial File Transfer Protocol",
   "The _________ layer (OSI) is responsible for establishing a connection between networked devices.": "transport",
-  "Within the context of networking, what does SIP stand for?": "Session Initiation Protocol"
+  "Within the context of networking, what does SIP stand for?": "Session Initiation Protocol",
+  "Which port does HTTPS use?": "443",
+  "DHCP uses port __ & port 68": "67",
+  "DHCP uses port 67 & port __": "68"
 }
