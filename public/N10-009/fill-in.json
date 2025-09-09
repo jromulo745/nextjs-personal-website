@@ -71,5 +71,11 @@
   "__, which is defined in RFC 791, is the protocol used to transport data from node on a network to another.": "IP",
   "____, whic is defined in RFC 792, is a protocol that works with the IP layer to provide error checking and reporting functionality": "ICMP",
   "Within the context of networking, what does ICMP stand for?": "Internet Control Message Protocol",
-  "The _____ protocol is designed to provide secure communications between systems.": "IPsec" 
+  "The _____ protocol is designed to provide secure communications between systems.": "IPSec",
+  "___, which is defined in RFC 793, is a connection-oriented transport layer protocol.": "TCP",
+  "which is defined in RFC 768, is the brother of TCP. Like TCP, ___ is a transport protocol, but the big difference is that UDP does not guarantee delivery like TCP does. In a sense, ___ is a “fire-and-forget” protocol; it assumes that the data sent will reach its destination intact.": "UDP",
+  "IP operates at the _______ layer of the OSI model.": "network",
+  "TCP operates at the transport layer of the OSI model.": "transport",
+  "UDP operates at the transport layer of the OSI model.": "transport",
+  "IPsec operates at the _______ layer of the Open Systems Interconnection (OSI) reference model and provides security for protocols that operate at the higher layers.": "network"
 }
