@@ -96,6 +96,7 @@ export default function FillIn({file_path}: {file_path: string}) {
       (document.getElementById("answer") as HTMLInputElement).style.backgroundColor = 'red';
       setTimeout(() => alert("Not quite, the correct answer is \"" + answers[counter] + "\"\nYou entered \"" + answer + "\"."), 10);
       console.log('correct answer: ' + answers[counter]);
+      console.log('   your answer: ' + answer);
     }
 
     (document.getElementById("answer") as HTMLInputElement).disabled = true;
