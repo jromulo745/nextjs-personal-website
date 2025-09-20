@@ -77,5 +77,19 @@
   "IP operates at the _______ layer of the OSI model.": "network",
   "TCP operates at the _________ layer of the OSI model.": "transport",
   "UDP operates at the _________ layer of the OSI model.": "transport",
-  "IPsec operates at the _______ layer of the Open Systems Interconnection (OSI) reference model and provides security for protocols that operate at the higher layers.": "network"
+  "IPsec operates at the _______ layer of the Open Systems Interconnection (OSI) reference model and provides security for protocols that operate at the higher layers.": "network",
+  "Which OSI layer does a Hub operate at?": "physical",
+  "Which OSI layer does a Repeater operate at?": "physical",
+  "Which OSI layer does a NIC operate at?": "data link",
+  "Which OSI layer does an Access Point operate at?": "data link",
+  "Which OSI layer does a Bridge operate at?": "data link",
+  "Which OSI layer does a Switch operate at? (the secondary answer is Network)": "data link",
+  "Which OSI layer does a Switch operate at? (the secondary answer is Data Link)": "network",
+  "Which OSI layer does a Router operate at?": "Network",
+  "Which OSI layer does a Firewall operate at? (the secondary answer is Transport)": "Network", 
+  "Which OSI layer does a Firewall operate at? (the secondary answer is Network)": "Transport", 
+  "Which OSI layer does an IDS/IPS operate at?": "Network", 
+  "Which OSI layer does a Load Balancer operate at? (the secondary answer is Application": "Transport", 
+  "Which OSI layer does a Load Balancer operate at? (the secondary answer is Transport": "Application", 
+  "Which OSI layer does a Proxy Server operate at?": "Application"
 }
