@@ -89,7 +89,7 @@
   "Which OSI layer does a Firewall operate at? (the secondary answer is Transport).": "Network", 
   "Which OSI layer does a Firewall operate at? (the secondary answer is Network).": "Transport", 
   "Which OSI layer does an IDS/IPS operate at?": "Network", 
-  "Which OSI layer does a Load Balancer operate at? (the secondary answer is Application": "Transport", 
-  "Which OSI layer does a Load Balancer operate at? (the secondary answer is Transport": "Application", 
+  "Which OSI layer does a Load Balancer operate at? (the secondary answer is Application).": "Transport", 
+  "Which OSI layer does a Load Balancer operate at? (the secondary answer is Transpor).": "Application", 
   "Which OSI layer does a Proxy Server operate at?": "Application"
 }
