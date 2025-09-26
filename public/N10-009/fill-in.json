@@ -95,5 +95,6 @@
   "One of the big problems associated with FTP is that it is considered unsecure. Even though simple authentication methods are associated with FTP, it is still susceptible to relatively simple hacking approaches. In addition, FTP transmits data between sender and receiver in an unencrypted format. By using a ______ _______, a hacker could easily copy packets from the network and read the contents. In today’s high-security computing environments, you need a more robust solution.": "packet sniffer",
   "FTP uses the ___ transport protocol": "tcp",
   "TFTP uses the ___ transport protocol": "udp",
-  "TFTP operates over the port number __": "69"
+  "TFTP operates over the port number __": "69",
+  "NTP operates over UDP port number ___": "123"
 }
