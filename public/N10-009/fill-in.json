@@ -91,5 +91,6 @@
   "Which OSI layer does an IDS/IPS operate at?": "Network", 
   "Which OSI layer does a Load Balancer operate at? (the secondary answer is Application).": "Transport", 
   "Which OSI layer does a Load Balancer operate at? (the secondary answer is Transport).": "Application", 
-  "Which OSI layer does a Proxy Server operate at?": "Application"
+  "Which OSI layer does a Proxy Server operate at?": "Application",
+  "One of the big problems associated with FTP is that it is considered unsecure. Even though simple authentication methods are associated with FTP, it is still susceptible to relatively simple hacking approaches. In addition, FTP transmits data between sender and receiver in an unencrypted format. By using a ______ _______, a hacker could easily copy packets from the network and read the contents. In today’s high-security computing environments, you need a more robust solution.": "packet sniffer"
 }
