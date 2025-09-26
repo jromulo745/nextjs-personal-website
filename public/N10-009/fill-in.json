@@ -99,5 +99,6 @@
   "NTP operates over UDP port number ___": "123",
   "SNMP uses port number ___ to send data": "161",
   "SNMP uses port number ___ to receive data": "162",
-  "The default port for SMTPS is ___": "587"
+  "The default port for SMTPS is ___": "587",
+  "The default port for SMTP is __": "25"
 }
