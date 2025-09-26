@@ -96,5 +96,7 @@
   "FTP uses the ___ transport protocol": "tcp",
   "TFTP uses the ___ transport protocol": "udp",
   "TFTP operates over the port number __": "69",
-  "NTP operates over UDP port number ___": "123"
+  "NTP operates over UDP port number ___": "123",
+  "SNMP uses port number ___ to send data": "161",
+  "SNMP uses port number ___ to receive data": "162"
 }
