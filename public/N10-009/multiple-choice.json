@@ -1,6 +1,7 @@
 {
  "At which OSI layer does an AP operate?": ["Network", "Physical", "*Data link", "Session", "Application"],
  "Which of the following are sublayers of the data link layer? (Choose two.)": ["*MAC", "LCL", "Session", "*LLC", "None of the listed"],
+ "At which OSI layers can a switch operate? (Choose two.)": ["Layer 1", "*Layer 2", "*Layer 3", "Layer 4"],
  "Which of the following OSI layers is responsible for establishing connections between two devices?": ["Network", "*Transport", "Session", "Data link", "Physical"],
  "What happens to data as it moves from the upper to the lower layers of the OSI model on a host system?": ["The header and trailer are stripped off through decapsulation.", "The data is sent in groups of segments that require two acknowledgments.", "The data moves from the physical layer to application layer.", "*It is encapsulated with a header at the beginning and a trailer at the end.", "None of the listed."],
  "TCP is an example of what kind of transport protocol?": ["*Connection oriented", "Connection reliant", "Connection dependent", "Connectionless", "None of the listed"],
