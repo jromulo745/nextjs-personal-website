@@ -106,7 +106,7 @@
   "What is the ___ (transport protocol) port number for SMB?": "tcp 445",
   "What is the ___ (transport protocol) port number for Microsoft SQL Server?": "tcp 1443",
   "What is the ___ (transport protocol) port number for ISAKMP (used for IKE)?": "udp 500",
-  "Which protocol uses the tcp port numbers 20/21": "FTP",
+  "Which protocol uses the tcp port numbers 20/21?": "FTP",
   "Which protocol uses the tcp port number 22 (apart from SFTP)?": "SSH",
   "Which protocol uses the tcp port number 22 (apart from SSH)?": "SFTP",
   "Which protocol uses the tcp port number 23?": "Telnet",
