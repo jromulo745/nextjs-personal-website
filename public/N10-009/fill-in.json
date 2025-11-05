@@ -65,7 +65,7 @@
   "What does TFTP stand for?": "Trivial File Transfer Protocol",
   "The _________ layer (OSI) is responsible for establishing a connection between networked devices.": "transport",
   "Within the context of networking, what does SIP stand for?": "Session Initiation Protocol",
-  "Which port does HTTPS use? (include the transport protocol)": "tcp 443",
+  "Which port does HTTPS use? (include the transport protocol).": "tcp 443",
   "DHCP uses ___ (transport protocol) port __ & port 68": "udp 67",
   "DHCP uses ___ (transport protocol) port 67 & port __": "udp 68",
   "__, which is defined in RFC 791, is the protocol used to transport data from node on a network to another.": "IP",
