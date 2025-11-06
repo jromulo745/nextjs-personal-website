@@ -14,5 +14,14 @@
  "What are two features supported in SNMPv3 and not previous versions?": ["*Authentication", "Dynamic mapping", "Platform independence", "*Encryption", "Decryption"],
  "Which of the following is a key management protocol used with IPsec to establish secure communication channels and negotiate cryptographic keys for encrypted VPN connections?": ["GRE", "SMB", "SIP", "*IKE", "TCP"],
  "Which is a standard for message logging that uses port 514 and is available on most network devices (e.g., routers, switches, and firewalls), as well as printers, and UNIX/Linux–based systems?": ["SNMP", "*Syslog", "SMTP TLS", "SSH", "UDP"],
- "Which network traffic type traffic is a one-to-one communication between a single sender and a single receiver and is the most common type of traffic in IP networks?": ["Multicast", "Anycast", "Broadcast", "*Unicast", "None"]
+ "Which network traffic type traffic is a one-to-one communication between a single sender and a single receiver and is the most common type of traffic in IP networks?": ["Multicast", "Anycast", "Broadcast", "*Unicast", "None"],
+ "You have been asked to install a network that will give the network users the greatest amount of fault tolerance. Which of the following network topologies would you choose?": ["Star/hub and spoke", "Ring", "*Mesh", "Bus"],
+ "Which of the following topologies allows for network expansion with the least amount of disruption for the current network users?": ["Bus", "Ring", "LAN", "*Star/hub and spoke"],
+ "Which network topology offers the greatest level of redundancy but has the highest implementation cost?": ["Wireless mesh", "*Wired mesh", "Hybrid star", "Bus network"],
+ "What traffic pattern refers to data that travels outside the datacenter or enterprise?": ["East-to-West", "*North-to-South", "On-premises", "West-to-South"],
+ "What layer in three-tier hierarchical model network architecture is considered the backbone of a network?": ["*Core layer", "Distribution/aggregation layer", "Access/edge layer", "Application layer"],
+ "Which topology utilizes a dedicated connection between two endpoints?": ["Mesh", "Spine and leaf", "*Point to point", "Star"],
+ "Which topology is commonly used in datacenter environments for high scalability and flexibility?": ["Ad hoc", "Hybrid", "Star", "*Spine and leaf"],
+ "This network architecture includes simplicity, cost savings (via a reduced number of network devices and switches), efficient communication (with fewer layers, there are fewer network hops between devices), and scalability (it can scale relatively well for medium-sized networks and datacenters with a moderate number of devices). Which network architecture is being described?": ["*Collapsed core", "NFV", "ToR switching", "Four-tier hierarchical model"],
+ "Which layer in the three-tier hierarchical model network architecture facilitates traffic between end devices and the rest of the network?": ["Core layer", "Distribution layer", "Point-to-point layer", "*Access layer"]
 }
