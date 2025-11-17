@@ -130,5 +130,14 @@
   "The _______ layers is also known as the \"routing\" layer.": "network",
   "SMB is also referred to as which acronym?": "CIFS",
   "What does CIFS stand for?": "Common Internet File System",
-  "________ is the typical amount of time that it takes for packets of data to travel from one computer or system to the next. The higher the ________, the worse the experience when it comes to real-time video conferencing, webinars, gaming, and so on.": "latency"
+  "________ is the typical amount of time that it takes for packets of data to travel from one computer or system to the next. The higher the ________, the worse the experience when it comes to real-time video conferencing, webinars, gaming, and so on.": "latency",
+  "A ________ refers to a network’s physical and logical layout.": "topology",
+  "A network’s ________ ________ refers to the actual layout of the computer cables and other network devices.": "physical topology",
+  "A network’s _______ ________ refers to the way in which the network appears to the devices that use it.": "logical topology",
+  "In the ____ topology, all computers and other network devices connect to a central device called a hub or switch and, for that reason, it is also called a hub and spoke network.": "star",
+  "In the star topology, all computers and other network devices connect to a central device called a hub or switch and, for that reason, it is also called a ___ ___ _____ network.": "hub and spoke",
+  "____ topology incorporates a unique network design in which each computer on the network connects to every other, creating a point-to-point connection between every device on the network.": "Mesh",
+  "_____ _________ is a process or capability of a network or system to continue working after there is a problem. It refers to a network or system’s ability to continue operating after a malfunction or failure.": "fault tolerance",
+  "A switch can work at either Layer 2 (the data link layer) or Layer 3 (the network layer) of the OSI model. When it filters traffic based on the MAC address, it is called a Layer _ switch, since MAC addresses exist at Layer _ of the OSI model (if it operated only with IP traffic, it would be a Layer 3 switch).": "2",
+  "A switch can work at either Layer 2 (the data link layer) or Layer 3 (the network layer) of the OSI model. When it filters traffic based on the MAC address, it is called a Layer 2 switch, since MAC addresses exist at Layer 2 of the OSI model (if it operated only with IP traffic, it would be a Layer _ switch).": "3"
 }
