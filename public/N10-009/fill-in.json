@@ -127,7 +127,7 @@
   "Which protocol uses the udp port number 123?": "NTP",
   "Which protocol uses the udp port numbers 161/162?": "SNMP",
   "Which protocol uses the udp port number 514?": "Syslog",
-  "The _______ layers is also known as the \"routing\" layer.": "network",
+  "The _______ layer is also known as the \"routing\" layer.": "network",
   "SMB is also referred to as which acronym?": "CIFS",
   "What does CIFS stand for?": "Common Internet File System",
   "________ is the typical amount of time that it takes for packets of data to travel from one computer or system to the next. The higher the ________, the worse the experience when it comes to real-time video conferencing, webinars, gaming, and so on.": "latency",
