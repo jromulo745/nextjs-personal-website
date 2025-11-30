@@ -28,7 +28,7 @@ export default function ExamAlerts({file_path}: {file_path: string}) {
   }
 
   function startExam() { // double serves as the Next button
-    if ((counter + 1) === listLength) {
+    if ((counter + 1) === (listLength - 1)) {
       console.log('here ' + counter + ' ' + listLength);
       setNextButtonDisabled(true);
     }
