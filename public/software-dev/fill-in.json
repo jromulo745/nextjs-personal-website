@@ -50,5 +50,6 @@
   "In iOS development using Swift, an HStack is a _________ ____ that arranges views horizontally. A VStack arranges the views it contains vertically.": "container view",
   "In iOS development using Swift, A _______ is a view used inside another view.": "subview",
   "________ languages are converted directly into machine code that the processor can execute.": "compiled",
-  "___________ languages are those in which the source code is executed by an interpreter ( is responsible for translating the source code into machine code at runtime) without being compiled into machine code first.": "Interpreted"
+  "___________ languages are those in which the source code is executed by an interpreter ( is responsible for translating the source code into machine code at runtime) without being compiled into machine code first.": "Interpreted",
+  "For git version >= 2.23, to revert changes made to your local, working copy, use the following command: ": "git restore ."
 }
