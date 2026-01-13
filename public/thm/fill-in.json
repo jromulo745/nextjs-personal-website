@@ -115,5 +115,6 @@
   "Which HTTP Response Header matches the following: Information to store which gets sent back to the web server on each request (see cookies task for more information).": "Set-Cookie",
   "Which HTTP Response Header matches the following: How long to store the content of the response in the browser's cache before it requests it again.": "Cache-Control",
   "Which HTTP Response Header matches the following: This tells the client what type of data is being returned, i.e., HTML, CSS, JavaScript, Images, PDF, Video, etc. Using the content-type header the browser then knows how to process the data.": "Content-Type",
-  "Which HTTP Response Header matches the following: What method has been used to compress the data to make it smaller when sending it over the internet.": "Content-Encoding"
+  "Which HTTP Response Header matches the following: What method has been used to compress the data to make it smaller when sending it over the internet.": "Content-Encoding",
+  "_______ ____ applications are computer programs designed to be used from a text interface; think of it as if you're using an application without a user interface.": "Command line"
 }
