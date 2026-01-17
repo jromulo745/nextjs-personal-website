@@ -139,5 +139,17 @@
   "____ topology incorporates a unique network design in which each computer on the network connects to every other, creating a point-to-point connection between every device on the network.": "Mesh",
   "_____ _________ is a process or capability of a network or system to continue working after there is a problem. It refers to a network or system’s ability to continue operating after a malfunction or failure.": "fault tolerance",
   "A switch can work at either Layer 2 (the data link layer) or Layer 3 (the network layer) of the OSI model. When it filters traffic based on the MAC address, it is called a Layer _ switch, since MAC addresses exist at Layer _ of the OSI model (if it operated only with IP traffic, it would be a Layer 3 switch).": "2",
-  "A switch can work at either Layer 2 (the data link layer) or Layer 3 (the network layer) of the OSI model. When it filters traffic based on the MAC address, it is called a Layer 2 switch, since MAC addresses exist at Layer 2 of the OSI model (if it operated only with IP traffic, it would be a Layer _ switch).": "3"
+  "A switch can work at either Layer 2 (the data link layer) or Layer 3 (the network layer) of the OSI model. When it filters traffic based on the MAC address, it is called a Layer 2 switch, since MAC addresses exist at Layer 2 of the OSI model (if it operated only with IP traffic, it would be a Layer _ switch).": "3",
+  "A ____ (or \"host\") is any device connected to the network. A ____ might be a client computer, a server computer, a printer, a router, or a gateway.": "node",
+  "A node (or \"____\") is any device connected to the network. A node might be a client computer, a server computer, a printer, a router, or a gateway.": "host",
+  "The 127.0.0.1 network ID is reserved for the IPv4 local ________. The local ________, or \"localhost\", address is a function of the protocol suite used in the troubleshooting process.": "loopback",
+  "The 127.0.0.1 network ID is reserved for the IPv4 local loopback. The local loopback, or \"_________\", address is a function of the protocol suite used in the troubleshooting process.": "localhost",
+  "__________ is a process by which the node (host) portions of an IP address create more networks than you would have if you used the default subnet mask.": "Subnetting",
+  "A ______ network is a network to which anyone can connect. The best (and perhaps only pure) example of such a network is the Internet.": "public",
+  "A _______ network is any network to which access is restricted. A corporate network and a network in a school are examples.": "private",
+  "____ is an IPv4 method of assigning addresses outside the standard Class A, B, and C structure.": "CIDR",
+  "What does CIDR stand for?": "Classless interdomain routing",
+  "_______ ________ are the means by which a device can access hosts on other networks for which it does not have a specifically configured route.": "Default gateways",
+  "______ __________ refers to the manual assignment of IP addresses to a system. This approach has two main problems": "Static addressing",
+  "_______ __________ refers to the automatic assignment of IP addresses.": "Dynamic addressing"
 }
