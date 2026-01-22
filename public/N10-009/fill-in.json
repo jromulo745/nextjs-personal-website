@@ -150,6 +150,6 @@
   "____ is an IPv4 method of assigning addresses outside the standard Class A, B, and C structure.": "CIDR",
   "What does CIDR stand for?": "Classless interdomain routing",
   "_______ ________ are the means by which a device can access hosts on other networks for which it does not have a specifically configured route.": "Default gateways",
-  "______ __________ refers to the manual assignment of IP addresses to a system. This approach has two main problems": "Static addressing",
+  "______ __________ refers to the manual assignment of IP addresses to a system.": "Static addressing",
   "_______ __________ refers to the automatic assignment of IP addresses.": "Dynamic addressing"
 }
