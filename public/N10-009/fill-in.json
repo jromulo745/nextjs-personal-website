@@ -152,6 +152,7 @@
   "_______ ________ are the means by which a device can access hosts on other networks for which it does not have a specifically configured route.": "Default gateways",
   "______ __________ refers to the manual assignment of IP addresses to a system.": "Static addressing",
   "_______ __________ refers to the automatic assignment of IP addresses.": "Dynamic addressing",
+  "OSPF is a common ____-_____ protocol.": "link state",
   "___________ represents the time it takes routers to detect change on the network.": "Convergence",
   "The term _____ ___________ applies when specific routes are combined into one route.": "route aggregation",
   "A _______ _______ is the router’s IP address, which is the pathway to any and all remote networks.": "default gateway"
