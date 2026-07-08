@@ -51,7 +51,7 @@ export default function AboutMePage() {
           </ul>
 
           <ul style={{textAlign: 'left', margin: '10px 50px'}}>
-            <li style={{listStyleType: 'disc'}}><strong>Software Engineer I</strong></li>
+            <li style={{listStyleType: 'disc'}}><strong>Software Engineer</strong></li>
             <ul style={{listStyleType: 'circle'}}>
               <li>Developed and maintained Windows and web-based applications in an Agile .NET environment.</li>
               <li>Upheld Object-Oriented Programming (OOP) principles and best practices using C# and JavaScript.</li>
@@ -60,6 +60,20 @@ export default function AboutMePage() {
             </ul>
           </ul>
 
+          <h2 style={{textAlign: 'center', marginTop: '30px', fontStyle: 'italic'}}>Alternative Family Services</h2>
+          <ul style={{textAlign: 'left', margin: '10px 50px'}}>
+            <li style={{listStyleType: 'disc'}}><strong>IT Specialist</strong></li>
+            <ul style={{listStyleType: 'circle'}}>
+               <li>Designed, built, and maintained data analytics pipelines and dashboards across multiple platforms
+                   (Periscope/Sisense, Zoho Analytics), utilizing SQL, PowerBI, and an in-house Data Warehouse.</li>
+               <li>Administered multiple agency-wide systems, supporting daily operations by managing system configurations, user
+                   access, and issue resolution.</li>
+               <li>Diagnosed and resolved technical issues with computer software and networks.</li>
+               <li>Provided technical assistance to users, answered questions, and guided staff through troubleshooting steps virtually,
+                   in-person (as needed), and/or via email and/or training through the agency’s IT service desk.</li>
+               <li>Provided training to users on new software, or IT systems, when necessary.</li>
+            </ul>
+          </ul>
         </div>
       </div>
     </div>
